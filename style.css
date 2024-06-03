@@ -82,14 +82,14 @@ body {
     font-size: 18px;
     margin-top: 20px;
     line-height: 160%;
-    animation: lower-animation 0.5s  forwards;
+    animation: bottom-animation 0.5s  forwards;
 }
 
 .hero-services {
     display: flex;
     margin-top: 30px;
     gap: 40px;
-    animation: lower-animation 0.9s forwards;
+    animation: bottom-animation 0.9s forwards;
 }
 
 .hero-services-box {
@@ -113,7 +113,7 @@ body {
     color: white;
     cursor: pointer; 
     transition: background-color 0.3s; 
-    animation: lower-animation 1.1s  forwards;
+    animation: bottom-animation 1.1s  forwards;
 
 }
 
@@ -149,6 +149,14 @@ body {
         gap: 0; 
     }
 
+    .hero-image{
+        justify-content: center;
+    }
+
+.hero-image img{
+    width: 100%;
+}
+
     .hero-text, .hero-image {
         width: 100%; 
         padding: 20px; 
@@ -180,7 +188,7 @@ body {
 }
 
 
-@keyframes lower-animation {
+@keyframes bottom-animation {
     0% {
       opacity: 0;
       transform: translateY(50px);
