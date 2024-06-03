@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookcall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1492px;
+}
+
+.bookcalltext {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-circle {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #4F46E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.bookcallimg {
+    width: 50px;
+}
+
+.text-content h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    background: #4F46E5;
+    box-shadow: 0 0 25px #4F46E5;
+    transition: box-shadow 0.5s;
+}
+
+.shadow__btn:hover {
+    box-shadow: 0 0 5px #4F46E5,
+                0 0 25px #4F46E5,
+                0 0 50px #4F46E5,
+                0 0 100px #4F46E5;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+    .bookcall {
+        flex-direction: column;
+        text-align: center;
+    }
+    .bookcalltext {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .logo-circle {
+        margin-bottom: 20px;
+    }
+}
