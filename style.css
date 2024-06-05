@@ -188,6 +188,6 @@ body {
     .features-img{
         display: flex;
         justify-content: center;
-        align-items: center; /* Ekran yüksekliği kadar alan kaplasın */
+        align-items: center; 
     }
 }
