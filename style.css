@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1492px; 
+    /* max-width: 1492px;  */
     margin: 0 auto; 
     padding: 0 100px; 
 }
@@ -382,17 +382,6 @@ p {
         width: 100%;
     }
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-body {
-    background-color: #151515;
-    font-family: Arial, sans-serif; 
-}
 
 .container {
     max-width: 1170px; 
@@ -505,23 +494,9 @@ body {
         text-align: left;
     }
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
 
-body {
-    background-color: #151515;
-    font-family: Arial, sans-serif; 
-}
 
-.container {
-    max-width: 1492px; 
-    margin: 0 auto; 
-    padding: 0 100px; 
-}
+
 
 .features{
     display: flex;
@@ -637,9 +612,7 @@ body {
 
 
   @media screen and (max-width: 768px) {
-    .container{
-        padding: 0 10px;
-    }
+   
 
     .features {
         flex-direction: column; 
@@ -699,11 +672,7 @@ body {
     }
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .testimonialcontainer{
     width: 100%;
@@ -752,22 +721,6 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: white;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #151515;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 1492px;
-    margin: 0 auto;
-    padding: 0 100px;
 }
 
 .updates {
@@ -848,9 +801,6 @@ body {
   }
 
   @media only screen and (max-width: 768px) {
-    .container{
-        padding: 0 10px;
-    }
     
     .updates-box {
         flex-direction: column;
@@ -861,19 +811,6 @@ body {
          height: auto;
          margin: 30px 0;
     }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #151515;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .bookcall {
@@ -951,16 +888,9 @@ body {
     }
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   scroll-behavior: smooth;
-}
-
 
 .footer {
-    width: 1492px;
+    
     background: #151515;
     color: #fff;
     font-size: 16px;
