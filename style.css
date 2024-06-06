@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    /* max-width: 1492px;  */
+    max-width: 1170px; 
     margin: 0 auto; 
     padding: 0 100px; 
 }
@@ -383,10 +383,7 @@ p {
     }
 }
 
-.container {
-    max-width: 1170px; 
-    margin: 0 auto; 
-}
+
 
 .second-features-section {
     display: flex;
