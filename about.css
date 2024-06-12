@@ -77,19 +77,21 @@ body {
     padding: 60px 0;
 }
 
-.about-us-hero-texts{
+.about-us-hero-texts {
     display: flex;
+    
 }
 
-
-.about-us-hero-texts h2{
+.about-us-hero-texts h2 {
     width: 100%;
     font-size: 36px;
 }
 
-.about-us-hero-texts p{
+.about-us-hero-texts p {
     font-size: 18px;
+    margin: 0;
 }
+
 
 .statistics{
     display: flex;
@@ -266,7 +268,7 @@ body {
 .team-photos-container{
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(4, 1fr); /* 2 sütun, her biri 400px genişliğinde */
+    grid-template-columns: repeat(4, 1fr); 
 }
 
 .grid-photo{
@@ -305,6 +307,89 @@ body {
     flex-direction: column;
     padding: 80px 0;
 }
+/* İstatistikler bölümü */
+@media (max-width: 768px) {
+    .statistics {
+        flex-direction: column;
+        gap: 60px;
+        padding: 40px 0;
+    }
+
+    .statistics-img img {
+        border-radius: 12px;
+        width: 100%; /* İstatistik resminin genişliğini doldur */
+        max-width: 570px; /* Maksimum genişlik ayarı */
+    }
+
+    .statistics-texts {
+        text-align: center;
+        gap: 20px;
+    }
+
+    .stats {
+        justify-content: center;
+    }
+}
+
+/* Katıl bize bölümü */
+@media (max-width: 768px) {
+    .join-us {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .join-us-img img {
+        border-radius: 12px;
+        width: 100%; /* Katıl bize resminin genişliğini doldur */
+        max-width: 470px; /* Maksimum genişlik ayarı */
+    }
+
+    .join-us-texts {
+        gap: 20px;
+    }
+
+    .join-us-texts button {
+        width: 100%; /* Düğme genişliğini doldur */
+    }
+}
+
+/* Hakkımızda bilgisi bölümü */
+@media (max-width: 768px) {
+    .about-us-info {
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .about-info-img img {
+        border-radius: 12px;
+        width: 100%; /* Resmin genişliğini doldur */
+        max-width: 570px; /* Maksimum genişlik ayarı */
+    }
+}
+
+/* Ekibimiz bölümü */
+@media (max-width: 768px) {
+    .our-team {
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .team-photos-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .grid-photo img {
+        border-radius: 12px;
+        width: 100%; /* Resmin genişliğini doldur */
+        max-width: 270px; /* Maksimum genişlik ayarı */
+    }
+}
+
+/* Diğer stiller aynı kalabilir */
+
 
 .bookcall {
     display: flex;
@@ -466,6 +551,21 @@ form input {
     .button-36{
         width: 100%;
     }
+    .about-us-hero img {
+        padding: 25px;
+    }
+    .about-us-hero-texts {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px;
+    }
+
+    .about-us-hero-texts h2 {
+       padding: 35px;
+        margin-bottom: 20px; 
+    
+}
+   
 }
 
 .button-36 {
