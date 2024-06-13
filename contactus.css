@@ -47,19 +47,6 @@ body {
 .navbar button:hover {
     background-color: #3b37c4; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contactussh1 {
     text-align: center;
     margin-top: 30px;
@@ -152,26 +139,6 @@ body {
 .button-36:hover {
     background-color: #0056b3;
 }
-
-
-@media (max-width: 768px) {
-    .contact {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .address-info {
-        flex-direction: column;
-    }
-
-    .contactform {
-        margin-top: 20px;
-    }
-}
-
-
-
-
 .faq-section {
     padding: 80px 0;
     text-align: center;
@@ -222,14 +189,6 @@ body {
     align-items: center; 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .faq-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-    }
-}
-
 .button-36 {
     background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
     border-radius: 10px;
@@ -255,13 +214,6 @@ body {
 .button-36:hover {
     box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
     transition-duration: .2s;
-}
-
-@media (min-width: 768px) {
-    .button-36 {
-        padding: 0 2.6rem;
-        width: 100%;
-    }
 }
 
 .container {
@@ -341,20 +293,6 @@ body {
      border: none;
      margin-bottom: 10px;
  }
- 
- @media (max-width: 768px) {
-     .col {
-         flex-basis: 100%;
-     }
- 
-     form input {
-         width: 100%;
-     }
-     .button-36{
-         width: 100%;
-     }
- }
- 
  .button-36 {
      background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
      border-radius: 10px;
@@ -382,9 +320,42 @@ body {
      transition-duration: .2s;
  }
  
- @media (min-width: 768px) {
-     .button-36 {
-         padding: 0 2.6rem;
-         width: 100%;
-     }
- }
+ @media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .address-info {
+        flex-direction: column;
+    }
+
+    .contactform {
+        margin-top: 20px;
+    }
+
+    .faq-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    .button-36 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-36 {
+        padding: 0 2.6rem;
+        width: 100%;
+    }
+}
+
