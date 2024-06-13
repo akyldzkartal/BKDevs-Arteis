@@ -60,9 +60,6 @@ body {
     font-size: 64px;
     width: 100%;
 }
-
-
-
 .about-us-hero img {
     width: 100%;
     max-height: 520px;
@@ -216,9 +213,6 @@ body {
     text-decoration: none;
     color: white;
 }
-
-
-
 .join-us-texts button:hover{
     box-shadow: 0 0 5px #4F46E5,
     0 0 25px #4F46E5,
@@ -307,90 +301,6 @@ body {
     flex-direction: column;
     padding: 80px 0;
 }
-/* İstatistikler bölümü */
-@media (max-width: 768px) {
-    .statistics {
-        flex-direction: column;
-        gap: 60px;
-        padding: 40px 0;
-    }
-
-    .statistics-img img {
-        border-radius: 12px;
-        width: 100%; /* İstatistik resminin genişliğini doldur */
-        max-width: 570px; /* Maksimum genişlik ayarı */
-    }
-
-    .statistics-texts {
-        text-align: center;
-        gap: 20px;
-    }
-
-    .stats {
-        justify-content: center;
-    }
-}
-
-/* Katıl bize bölümü */
-@media (max-width: 768px) {
-    .join-us {
-        flex-direction: column;
-        text-align: center;
-        gap: 40px;
-        padding: 40px 0;
-    }
-
-    .join-us-img img {
-        border-radius: 12px;
-        width: 100%; /* Katıl bize resminin genişliğini doldur */
-        max-width: 470px; /* Maksimum genişlik ayarı */
-    }
-
-    .join-us-texts {
-        gap: 20px;
-    }
-
-    .join-us-texts button {
-        width: 100%; /* Düğme genişliğini doldur */
-    }
-}
-
-/* Hakkımızda bilgisi bölümü */
-@media (max-width: 768px) {
-    .about-us-info {
-        gap: 40px;
-        padding: 40px 0;
-    }
-
-    .about-info-img img {
-        border-radius: 12px;
-        width: 100%; /* Resmin genişliğini doldur */
-        max-width: 570px; /* Maksimum genişlik ayarı */
-    }
-}
-
-/* Ekibimiz bölümü */
-@media (max-width: 768px) {
-    .our-team {
-        gap: 40px;
-        padding: 40px 0;
-    }
-
-    .team-photos-container {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
-
-    .grid-photo img {
-        border-radius: 12px;
-        width: 100%; /* Resmin genişliğini doldur */
-        max-width: 270px; /* Maksimum genişlik ayarı */
-    }
-}
-
-/* Diğer stiller aynı kalabilir */
-
-
 .bookcall {
     display: flex;
     justify-content: space-between;
@@ -456,23 +366,6 @@ body {
                 0 0 50px #4F46E5,
                 0 0 100px #4F46E5;
 }
-
-/* Responsive ayarlar */
-@media (max-width: 768px) {
-    .bookcall {
-        flex-direction: column;
-        text-align: center;
-    }
-    .bookcalltext {
-        margin-bottom: 20px;
-        flex-direction: column;
-    }
-    .logo-circle {
-        margin-bottom: 20px;
-    }
-}
-
-
 .footer {
     padding: 80px 0;
     background: #151515;
@@ -539,35 +432,6 @@ form input {
     border: none;
     margin-bottom: 10px;
 }
-
-@media (max-width: 768px) {
-    .col {
-        flex-basis: 100%;
-    }
-
-    form input {
-        width: 100%;
-    }
-    .button-36{
-        width: 100%;
-    }
-    .about-us-hero img {
-        padding: 25px;
-    }
-    .about-us-hero-texts {
-        flex-direction: column; 
-        align-items: center; 
-        padding: 20px;
-    }
-
-    .about-us-hero-texts h2 {
-       padding: 35px;
-        margin-bottom: 20px; 
-    
-}
-   
-}
-
 .button-36 {
     background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
     border-radius: 10px;
@@ -595,6 +459,84 @@ form input {
     transition-duration: .2s;
 }
 
+@media (max-width: 768px) {
+    .statistics {
+        flex-direction: column;
+        gap: 60px;
+        padding: 40px 0;
+    }
+
+    .statistics-img img,
+    .join-us-img img,
+    .about-info-img img,
+    .grid-photo img {
+        border-radius: 12px;
+        width: 100%;
+        max-width: 570px; /* Maksimum genişlik ayarı */
+    }
+
+    .statistics-texts,
+    .join-us,
+    .about-us-hero-texts {
+        text-align: center;
+        gap: 20px;
+        padding: 40px 0;
+    }
+
+    .stats,
+    .team-photos-container {
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .join-us {
+        flex-direction: column;
+    }
+
+    .join-us-texts button,
+    .bookcall,
+    .bookcalltext,
+    .col form input,
+    .button-36 {
+        width: 100%;
+    }
+
+    .bookcall {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bookcalltext {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .logo-circle {
+        margin-bottom: 20px;
+    }
+
+    .about-us-info,
+    .our-team {
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .about-us-hero img {
+        padding: 25px;
+    }
+
+    .about-us-hero-texts {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about-us-hero-texts h2 {
+        padding: 35px;
+        margin-bottom: 20px;
+    }
+}
 @media (min-width: 768px) {
     .button-36 {
         padding: 0 2.6rem;
