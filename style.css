@@ -26,16 +26,6 @@ body {
     justify-content: space-between;
     margin-top: 20px;
   }
-  .mainMenu {
-    position: fixed;
-    top: -100%;
-    left: 0;
-    right: 0;
-    display: none;
-    background-color: black; /* Or whatever background color you have */
-    transition: top 0.3s ease;
-    z-index: 1000; /* Ensure it is above other content */
-}
 
 
   .headerbutton {
