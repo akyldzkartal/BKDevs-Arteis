@@ -1084,9 +1084,16 @@ form input {
 }
 
 
-
-
-
+@media (max-width: 480px) {
+    .inner-updates-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #counter h1{
+        font-size: 1.5em;
+    }
+}
 
 
 
