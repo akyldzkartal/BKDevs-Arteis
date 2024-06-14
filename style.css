@@ -256,7 +256,6 @@ p {
     
 }
 .services {
-    font-family: "Mochiy Pop One";
     width: 100%;
     background-color: #151515;
 }
@@ -271,11 +270,17 @@ p {
     align-items: center;
 }
 
-.service h1 {
+.services-header{
+    font-size: 36px;
+}
+
+.service h3 {
     color: white;
-    font-size: 30px;
+    font-size: 18px;
     position: relative;
-    
+    margin-top: 10px;
+    text-align: center;
+    transition: opacity 0.3s linear, transform 0.3s linear;
 }
 
 .service p {
@@ -284,6 +289,7 @@ p {
 
 .service h2 {
     color: white;
+    text-align: center;
 }
 
 .cards {
@@ -394,6 +400,7 @@ p {
 .features-texts-box p {
     font-size: 18px;
     margin-top: 20px;
+    line-height: 28.8px;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -401,6 +408,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 30px;
 }
 
 .features-g1-boxes {
@@ -652,8 +660,9 @@ p {
 
 .text-content p {
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
     width: 80%;
+    line-height: 28.8px;
 }
 .shadow__btn {
     padding: 10px 40px;
