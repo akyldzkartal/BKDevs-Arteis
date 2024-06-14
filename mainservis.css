@@ -241,21 +241,17 @@ body {
                 0 0 100px #4F46E5;
 }
 .bookcallbutton {
-    padding: 10px 20px;
-    border: none;
     font-size: 17px;
     color: #fff;
     border-radius: 7px;
     font-weight: 700;
-    background: #4F46E5;
     box-shadow: 0 0 25px #4F46E5;
     transition: box-shadow 0.5s;
     align-self: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: #4F46E5;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
     transition: background-color 0.3s ease;
     cursor: pointer; 
     border: none; 
