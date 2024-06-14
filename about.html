@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/CSS/about.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header class="header">
+        <nav>
             <div class="logo">
                 <a href="index.html"><img src="assets/arteis.png" alt=""></a>
             </div>
-            <nav class="navbar">
-                <a href="index.html">Ana sayfa</a>
-                <a href="">Hakkımızda</a>
-                <a href="">Hizmetler</a>
-                <a href="">Uzmanlıklar</a>
-                <button><a href="contactus.html">Contact Us</a></button>
-            </nav>
-        </header>
+            <div class="openMenu"><i class="fa fa-bars" style="color: white;"></i></div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="mainservis.html">Hizmetler</a></li>
+                <li><a href="#uzmanlıklar">Uzmanlıklar</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+               <a href="contactus.html"> <button class="headerbutton" role="button">İletişime Geç</button></a>
+                <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: white;"></i></div>
+                <span class="icons">
+                   <a href="https://www.facebook.com/ArteisConsulting/"><i class="fab fa-facebook fa-xl"></i></a>
+                  <a href="https://www.instagram.com/arteisconsulting/"> <i class="fab fa-instagram fa-xl"></i></a>
+                   <a href="https://x.com/arteisbilisim"><i class="fab fa-twitter fa-xl"></i></a>
+                   <a href="https://www.linkedin.com/company/arteisconsulting/"><i class="fa-brands fa-linkedin fa-2xl logo1"></i></a>
+                   
+                </span>
+            </ul>
+        </nav>
         <div class="about-us-page">
                 <p class="about-us-header">About Us<p>
         </div>
@@ -82,7 +92,7 @@
                         <p>En son teknolojilerle yüksek verimlilik sağlar</p>
                     </div>
                 </div>
-                <button id="animation-d"><a href="contactus.html">Contact Us</a></button>
+                <a href="contactus.html"><button id="animation-d"><a href="contactus.html">İletişime Geç</a></button></a>
             </div>
             <div class="join-us-img">
                 <img src="assets/g1-image.jpg" alt="" id="animation-r">
@@ -115,7 +125,7 @@
         <div class="bookcall">
             <div class="bookcalltext">
                 <div class="logo-circle-p" id="animation-l">
-                    <img src="mark_as_unread_20dp_FILL0_wght400_GRAD0_opsz20 (2).png" alt="" class="bookcallimg">
+                    <img src="assets/mark_as_unread_20dp_FILL0_wght400_GRAD0_opsz20 (2).png" alt="" class="bookcallimg">
                 </div>
                 <div class="text-content" id="animation-r">
                     <h1>Projenizi hayata mı geçirmek istiyorsunuz?</h1>
@@ -137,17 +147,19 @@
         
               <div class="col">
                 <h3>Sayfalar</h3>
-                <p>Anasayfa</p>
-                <p>Hakkımızda</p>
-                <p>Uzmanlıklar</p>
-                <p>İletişim</p>
+                <a href="index.html"> <p>Anasayfa</p></a>
+                <a href="about.html"> <p>Hakkımızda</p></a>
+               <a href="#uzmanlıklar">  <p>Uzmanlıklar</p></a>
+               <a href="contactus.html">  <p>İletişim</p></a>
               </div>
               <div class="col">
+                <a href="mainservis.html">
                 <h3>Hizmetler</h3>
                 <p>Süreç Ve Uygulama Danışmanlığı</p>
                 <p>Proje Yönetimi</p>
                 <p>Destek Hizmetleri</p>
                 <p>Arteis Çözümler</p>
+            </a>
               </div>
         
               <div class="col">
@@ -160,6 +172,7 @@
               </div>
             </div>
           </footer>
+        
     </div>
 </body>
 <script src="JS/app.js"></script>

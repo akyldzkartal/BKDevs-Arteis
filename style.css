@@ -639,7 +639,7 @@ p {
     color: white;
 }
 .logo-circle-p {
-    width: 120px;
+    width: 80px;
     height: 60px;
     border-radius: 50%;
     background-color: #4F46E5;
@@ -782,6 +782,32 @@ form input {
     transition-duration: .2s;
 }
 
+.bookcallbutton {
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    box-shadow: 0 0 25px #4F46E5;
+    transition: box-shadow 0.5s;
+    align-self: center;
+    padding: 10px 40px;
+    background-color: #4F46E5;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+    border: none; 
+    }
+    .bookcallbutton:hover {
+        box-shadow: 0 0 5px #4F46E5,
+                    0 0 25px #4F46E5,
+                    0 0 50px #4F46E5,
+                    0 0 100px #4F46E5;
+    }
+
+    .bookcallbutton a{
+        color: white;
+    }
+
 #animation-d, #animation-u, #animation-r, #animation-l, #pop-up {
     opacity: 0;
 }
@@ -818,7 +844,7 @@ form input {
 }
 @media only screen and (max-width: 768px) {
     .container {
-        padding: 0 10px; 
+        padding: 0 20px; 
     }
 
     .navbar {
@@ -833,6 +859,11 @@ form input {
     .hero {
         flex-direction: column; 
         gap: 0; 
+        padding: 50px 0;
+    }
+
+    .hero-text h1{
+        font-size: 46px;
     }
 
     .hero-image {
@@ -882,12 +913,21 @@ form input {
         flex-direction: column;
         gap: 20px;
         width: 100%;
+        align-items: center;
+    }
+
+    .serviceAll{
+        padding: 50px 0;
     }
 
     .second-features-section {
         flex-direction: column;
         gap: 30px; 
         margin: 0 20px;
+    }
+
+    .logo-circle-p{
+        margin-bottom: 15px;
     }
 
     .features-image-box,
@@ -969,9 +1009,17 @@ form input {
         gap: 0;
     }
 
+    .updates{
+        padding: 50px 0;
+    }
+
     .inner-updates-box {
         height: auto;
         margin: 30px 0;
+    }
+
+    .testimonialcontainer{
+        padding: 50px 0;
     }
 
     .bookcall {
@@ -979,6 +1027,9 @@ form input {
         text-align: center;
     }
 
+    .bookcall p{
+       width: 100%;
+    }
     .bookcalltext {
         margin-bottom: 20px;
         flex-direction: column;
