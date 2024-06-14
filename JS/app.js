@@ -46,5 +46,5 @@ function close() {
     mainMenu.style.top = '-140%';
     setTimeout(() => {
         mainMenu.style.display = 'none';
-    }, 300); // Match this timeout with your CSS transition duration
+    }, 1000); // Match this timeout with your CSS transition duration
 }
