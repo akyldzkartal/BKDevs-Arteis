@@ -112,6 +112,7 @@ body {
     right: 20px; 
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
   }
   
   .bottom-right button {
@@ -306,9 +307,10 @@ p {
     color: white;
     font-size: 18px;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     transition: opacity 0.3s linear, transform 0.3s linear;
+    margin-bottom: 20px;
 }
 
 .service p {
@@ -1080,6 +1082,16 @@ form input {
 @media screen and (max-width: 1200px) {
     .cards {
         flex-wrap: nowrap; 
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .updates-box{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .inner-updates-box{
+        width: 100%;
     }
 }
 
@@ -1094,6 +1106,10 @@ form input {
 }
 
 @media screen and (max-width: 1024px) {
+    .container{
+        max-width: 970px;
+    }
+    
     .features-img {
         display: flex;
         justify-content: center;
