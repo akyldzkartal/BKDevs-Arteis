@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/contactus.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -27,17 +28,21 @@
       </figure>
         </div>
     <div class="container">
+        <div class="bottom-right">
+            <button id="btn-tr">Türkçe</button>
+            <button id="btn-en">English</button>
+          </div>
         <nav>
             <div class="logo">
                 <a href="index.html"><img src="assets/arteis.png" alt=""></a>
             </div>
             <div class="openMenu"><i class="fa fa-bars" style="color: white;"></i></div>
             <ul class="mainMenu">
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="mainservis.html">Hizmetler</a></li>
-                <li><a href="#uzmanlıklar">Uzmanlıklar</a></li>
-                <li><a href="about.html">Hakkımızda</a></li>
-               <a href="contactus.html"> <button class="headerbutton" role="button">İletişime Geç</button></a>
+                <li><a href="index.html" key="1">Anasayfa</a></li>
+                <li><a href="mainservis.html" key="2">Hizmetler</a></li>
+                <li><a href="#uzmanlıklar" key="3">Uzmanlıklar</a></li>
+                <li><a href="about.html" key="4">Hakkımızda</a></li>
+               <a href="contactus.html"> <button class="headerbutton" role="button" key="5">İletişime Geç</button></a>
                 <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: white;"></i></div>
                 <span class="icons">
                    <a href="https://www.facebook.com/ArteisConsulting/"><i class="fab fa-facebook fa-xl"></i></a>
@@ -51,7 +56,7 @@
 
 
 
-    <div class="contactussh1" id="pop-up">
+    <div class="contactussh1" id="pop-up" key="201">
         Bizimle İletişime Geçin
     </div>
     <div class="contact">
@@ -61,8 +66,8 @@
             </div>
             <div class="address-info">
                 <div class="address" id="animation-l">
-                    <h2>Arteis Bilişim Limited Şirketi</h2>
-                    <p>İletişim Bilgilerimiz</p>
+                    <h2 key="202">Arteis Bilişim Limited Şirketi</h2>
+                    <p key="203">İletişim Bilgilerimiz</p>
                     <p class="adress-info">📞 +90 216 266 73 35</p>
                     <p class="adress-info">📧 info@arteis.com.tr</p>
                     <p class="adress-info">🏠 Metropol İstanbul A3/20, Türkiye</p>
@@ -71,51 +76,51 @@
             </div>
         </div>
         <div class="contactform" id="animation-l">
-            <h1>Bize Ulaşmak İçin Formu Kullanın</h1>
-            <p>Formu doldurun, ekibimiz en geç 24 saat içinde size geri dönecektir.</p>
+            <h1 key="204">Bize Ulaşmak İçin Formu Kullanın</h1>
+            <p key="205">Formu doldurun, ekibimiz en geç 24 saat içinde size geri dönecektir.</p>
             <input type="text" placeholder="İsim" class="contactformtext">
             <input type="text" placeholder="E-Posta" class="contactformtext">
             <input type="text" placeholder="Telefon Numarası" class="contactformtext">
             <textarea placeholder="Mesajınız" class="contactformtextarea" style="resize: none;"></textarea>
-            <button class="button-36" role="button">Gönder</button>
+            <button class="button-36" role="button" key="206">Gönder</button>
         </div>
     </div>
 
     <section class="faq-section">
         <div class="faq-section-texts">
-            <h1 id="pop-up">Sıkça Sorulan Sorular</h1>
-            <p class="faq-p" id="animation-d">Temel Bilgi ve Sıkça Sorulan Soruların Kapsamlı İncelemesi ve Detaylı Cevapları</p>
+            <h1 id="pop-up" key="207">Sıkça Sorulan Sorular</h1>
+            <p class="faq-p" id="animation-d" key="208">Temel Bilgi ve Sıkça Sorulan Soruların Kapsamlı İncelemesi ve Detaylı Cevapları</p>
         </div>
         <div class="faq-container">
             <div class="faq-column">
                 <div class="faq-item" id="animation-l">
-                    <h2>Projelerinizdeki iş teslim süreleri ne kadar sürer?</h2>
-                    <p>Proje büyüklüğüne ve karmaşıklığına bağlı olarak değişkenlik göstermekle birlikte, genellikle zamanında teslimat sağlamak için titizlikle çalışıyoruz.
+                    <h2 key="209">Projelerinizdeki iş teslim süreleri ne kadar sürer?</h2>
+                    <p key="210">Proje büyüklüğüne ve karmaşıklığına bağlı olarak değişkenlik göstermekle birlikte, genellikle zamanında teslimat sağlamak için titizlikle çalışıyoruz.
                     </p>
                 </div>
                 <div class="faq-item" id="animation-l">
-                    <h2>Ürün veya hizmetinizin ana odak noktası nedir?</h2>
-                    <p>Firmamız, özellikle özelleştirilmiş yazılım çözümleri ve dijital platformlar geliştirmeye odaklanmaktadır. Müşterilerimizin ihtiyaçlarına yönelik özelleştirilmiş çözümler sunarak onların iş süreçlerini optimize etmeyi hedefliyoruz.</p>
+                    <h2 key="211">Ürün veya hizmetinizin ana odak noktası nedir?</h2>
+                    <p key="212">Firmamız, özellikle özelleştirilmiş yazılım çözümleri ve dijital platformlar geliştirmeye odaklanmaktadır. Müşterilerimizin ihtiyaçlarına yönelik özelleştirilmiş çözümler sunarak onların iş süreçlerini optimize etmeyi hedefliyoruz.</p>
                 </div>
             </div>
            <div class="faq-column">
             <div class="faq-item" id="animation-l">
-                <h2>Yazılım geliştirme süreciniz nasıl işliyor?</h2>
-                <p>Yazılım geliştirme sürecimiz, ihtiyaç analizi ve tasarım aşamasından başlayarak, geliştirme, test ve son kullanıcı geri bildirimiyle devam eden aşamalardan oluşur. Sürekli iletişim halinde olduğumuz müşterilerimizin geri bildirimlerine dayalı olarak süreci şekillendiriyoruz.</p>
+                <h2 key="213">Yazılım geliştirme süreciniz nasıl işliyor?</h2>
+                <p key="214">Yazılım geliştirme sürecimiz, ihtiyaç analizi ve tasarım aşamasından başlayarak, geliştirme, test ve son kullanıcı geri bildirimiyle devam eden aşamalardan oluşur. Sürekli iletişim halinde olduğumuz müşterilerimizin geri bildirimlerine dayalı olarak süreci şekillendiriyoruz.</p>
             </div>
             <div class="faq-item" id="animation-l">
-                <h2>Destek hizmetleriniz neleri kapsıyor?</h2>
-                <p>Yazılımımızı kullanırken her türlü teknik destek ve güncelleme sağlıyoruz. Ayrıca, kullanıcı eğitimi ve danışmanlık hizmetleri de sunuyoruz.</p>
+                <h2 key="215">Destek hizmetleriniz neleri kapsıyor?</h2>
+                <p key="216">Yazılımımızı kullanırken her türlü teknik destek ve güncelleme sağlıyoruz. Ayrıca, kullanıcı eğitimi ve danışmanlık hizmetleri de sunuyoruz.</p>
             </div>
            </div>
            <div class="faq-column">
             <div class="faq-item" id="animation-l">
-                <h2>Müşteri memnuniyetini nasıl ölçüyorsunuz?</h2>
-                <p> Müşteri geri bildirimleriyle sürekli olarak müşteri memnuniyetini değerlendiriyoruz. Ayrıca proje sonrası değerlendirme toplantıları ve anketlerle de müşteri memnuniyetini ölçüyoruz.</p>
+                <h2 key="217">Müşteri memnuniyetini nasıl ölçüyorsunuz?</h2>
+                <p key="218"> Müşteri geri bildirimleriyle sürekli olarak müşteri memnuniyetini değerlendiriyoruz. Ayrıca proje sonrası değerlendirme toplantıları ve anketlerle de müşteri memnuniyetini ölçüyoruz.</p>
             </div>
             <div class="faq-item" id="animation-l">
-                <h2>Firmanızın sahip olduğu teknoloji ve altyapı hakkında bilgi verebilir misiniz?</h2>
-                <p>Güçlü bir teknik altyapıya sahibiz ve projelerimizde kullanılan en son teknolojileri takip ediyoruz. Gelişmiş yazılım dilleri, framework'ler ve veri tabanı yönetim sistemleri kullanarak güvenilir ve ölçeklenebilir çözümler sunuyoruz.</p>
+                <h2 key="219">Firmanızın sahip olduğu teknoloji ve altyapı hakkında bilgi verebilir misiniz?</h2>
+                <p key="220">Güçlü bir teknik altyapıya sahibiz ve projelerimizde kullanılan en son teknolojileri takip ediyoruz. Gelişmiş yazılım dilleri, framework'ler ve veri tabanı yönetim sistemleri kullanarak güvenilir ve ölçeklenebilir çözümler sunuyoruz.</p>
             </div>
            </div>
         </div>
@@ -126,11 +131,11 @@
                 <img src="assets/mark_as_unread_20dp_FILL0_wght400_GRAD0_opsz20 (2).png" alt="" class="bookcallimg">
             </div>
             <div class="text-content" id="animation-r">
-                <h1>Projenizi hayata mı geçirmek istiyorsunuz?</h1>
-                <p>Bizimle iletişime geçin! Deneyimli ekibimiz, yenilikçi ve özelleştirilmiş yazılım çözümleri sunar. Fikirlerinizi gerçeğe dönüştürmek ve işinizi bir sonraki seviyeye taşımak için buradayız. Gelin, birlikte harika işler başaralım!</p>
+                <h1 key="47">Projenizi hayata mı geçirmek istiyorsunuz?</h1>
+                <p key="48">Bizimle iletişime geçin! Deneyimli ekibimiz, yenilikçi ve özelleştirilmiş yazılım çözümleri sunar. Fikirlerinizi gerçeğe dönüştürmek ve işinizi bir sonraki seviyeye taşımak için buradayız. Gelin, birlikte harika işler başaralım!</p>
             </div>
         </div>
-        <button class="shadow__btn" id="animation-d"><a href="contactus.html">İletişime Geç</a></button>
+        <button class="shadow__btn" id="animation-d"><a href="contactus.html" key="49">İletişime Geç</a></button>
     </div>
     <div class="container">
         <footer class="footer">
@@ -145,25 +150,25 @@
               </div>
         
               <div class="col">
-                <h3>Sayfalar</h3>
-                <a href="index.html"> <p>Anasayfa</p></a>
-                <a href="about.html"> <p>Hakkımızda</p></a>
-               <a href="mainservis.html">  <p>Uzmanlıklar</p></a>
-               <a href="contactus.html">  <p>İletişim</p></a>
+                <h3 key="50">Sayfalar</h3>
+                <a href="index.html"> <p key="51">Anasayfa</p></a>
+                <a href="about.html"> <p key="52">Hakkımızda</p></a>
+               <a href="mainservis.html">  <p key="53">Uzmanlıklar</p></a>
+               <a href="contactus.html">  <p key="54">İletişim</p></a>
               </div>
               <div class="col">
                 <a href="mainservis.html">
-                <h3>Hizmetler</h3>
-                <p>Süreç Ve Uygulama Danışmanlığı</p>
-                <p>Proje Yönetimi</p>
-                <p>Destek Hizmetleri</p>
-                <p>Arteis Çözümler</p>
+                <h3 key="55">Hizmetler</h3>
+                <p key="56">Süreç Ve Uygulama Danışmanlığı</p>
+                <p key="57">Proje Yönetimi</p>
+                <p key="58">Destek Hizmetleri</p>
+                <p key="59">Arteis Çözümler</p>
             </a>
               </div>
         
               <div class="col">
-                <h3>Haber Bülteni</h3>
-                <p>Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
+                <h3 key="60">Haber Bülteni</h3>
+                <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
                 <form>
                   <input type="email" name="" id="" placeholder="E-Mail adresinizi girin" class="form-input">
                   <button class="button-36" role="button">Abone Ol</button>
@@ -189,4 +194,5 @@
    
    
    </script>
+   <script src="language.js"></script>
 </html>
