@@ -27,17 +27,21 @@
       </figure>
         </div>
     <div class="container">
-        <nav>
+        <div class="bottom-right">
+            <button id="btn-tr">Türkçe</button>
+            <button id="btn-en">English</button>
+          </div>
+          <nav>
             <div class="logo">
                 <a href="index.html"><img src="assets/arteis.png" alt=""></a>
             </div>
             <div class="openMenu"><i class="fa fa-bars" style="color: white;"></i></div>
             <ul class="mainMenu">
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="mainservis.html">Hizmetler</a></li>
-                <li><a href="mainservis.html">Uzmanlıklar</a></li>
-                <li><a href="about.html">Hakkımızda</a></li>
-               <a href="contactus.html"> <button class="headerbutton" role="button">İletişime Geç</button></a>
+                <li><a href="index.html" key="1">Anasayfa</a></li>
+                <li><a href="mainservis.html" key="2">Hizmetler</a></li>
+                <li><a href="#uzmanlıklar" key="3">Uzmanlıklar</a></li>
+                <li><a href="about.html" key="4">Hakkımızda</a></li>
+               <a href="contactus.html"> <button class="headerbutton" role="button" key="5">İletişime Geç</button></a>
                 <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: white;"></i></div>
                 <span class="icons">
                    <a href="https://www.facebook.com/ArteisConsulting/"><i class="fab fa-facebook fa-xl"></i></a>
@@ -49,13 +53,13 @@
             </ul>
         </nav>
         <div class="about-us-page">
-                <p class="about-us-header">About Us<p>
+                <p class="about-us-header" key="300">Hakkımızda<p>
         </div>
         <div class="about-us-hero">
             <img src="assets/pexels-olly-3760089.jpg" alt="" id="pop-up">
             <div class="about-us-hero-texts">
-                <h2 id="animation-u">Biz kimiz ve <br> Nasıl Çözümler Sağlıyoruz?</h2>
-                <p id="animation-u">ARTEIS BİLİŞİM, SAP ürünleri ve uygulama alanlarında uçtan uça çözüm sağlamak amacıyla, alanlarinda 13+ tecrübe yılına sahip uzman danışmanlar tarafından kurulmuştur.</p>
+                <h2 id="animation-u" key="301">Biz kimiz ve <br> Nasıl Çözümler Sağlıyoruz?</h2>
+                <p id="animation-u" key="302">ARTEIS BİLİŞİM, SAP ürünleri ve uygulama alanlarında uçtan uça çözüm sağlamak amacıyla, alanlarinda 13+ tecrübe yılına sahip uzman danışmanlar tarafından kurulmuştur.</p>
             </div>
         </div>
         <div class="statistics">
@@ -63,20 +67,20 @@
                 <img src="assets/mainimage.jpg" alt="" id="animation-r">
             </div>
             <div class="statistics-texts">
-                <h2 id="pop-up">Yenilikçi Yazılım Çözümlerinde Arteis Farkı</h2>
-                <p id="animation-d">Arteis, yenilikçi yazılım çözümleri sunan ve teknolojiye öncülük eden bir yazılım şirketidir. 2015 yılında bir grup tutkulu yazılım mühendisi ve teknoloji meraklısı tarafından kurulan Arteis, kısa sürede sektörde kendine sağlam bir yer edinmiş ve sayısız başarılı projeye imza atmıştır.</p>
+                <h2 id="pop-up" key="303">Yenilikçi Yazılım Çözümlerinde Arteis Farkı</h2>
+                <p id="animation-d" key="304">Arteis, yenilikçi yazılım çözümleri sunan ve teknolojiye öncülük eden bir yazılım şirketidir. 2015 yılında bir grup tutkulu yazılım mühendisi ve teknoloji meraklısı tarafından kurulan Arteis, kısa sürede sektörde kendine sağlam bir yer edinmiş ve sayısız başarılı projeye imza atmıştır.</p>
                 <div class="stats" id="animation-d">
                     <div class="stat">
-                        <p class="stats-number">140K+</p>
-                        <p class="stats-types">Members</p>
+                        <p class="stats-number">100+</p>
+                        <p class="stats-types" key="305">Müşteri</p>
                     </div>
                     <div class="stat">
-                        <p class="stats-number">330+</p>
-                        <p class="stats-types">Videos</p>
+                        <p class="stats-number">60+</p>
+                        <p class="stats-types" key="306">Proje</p>
                     </div>
                     <div class="stat">
-                        <p class="stats-number">400+</p>
-                        <p class="stats-types">Events in 2023</p>
+                        <p class="stats-number">13+</p>
+                        <p class="stats-types" key="307">Tecrübe</p>
                     </div>
                 </div>
             </div>
@@ -84,13 +88,13 @@
 
         <div class="join-us">
             <div class="join-us-texts">
-                <h2 id="animation-u">Yazılım Şirketimizin Sunduğu Üstün Hizmetler</h2>
+                <h2 id="animation-u" key="308">Yazılım Şirketimizin Sunduğu Üstün Hizmetler</h2>
                 <div class="join-us-infos" id="animation-d">
                     <div class="info">
                         <div class="logo-circle-small">
                             <img src="assets/check.png" alt="">
                         </div>
-                        <p>Hızlı ve güvenilir yazılım çözümleri sunar.</p>
+                        <p key="309">Hızlı ve güvenilir yazılım çözümleri sunar.</p>
                     </div>
                 </div>
                 <div class="join-us-infos" id="animation-d">
@@ -98,7 +102,7 @@
                         <div class="logo-circle-small">
                             <img src="assets/check.png" alt="">
                         </div>
-                        <p>Müşteri odaklı ve yenilikçi projeler geliştirir</p>
+                        <p key="310">Müşteri odaklı ve yenilikçi projeler geliştirir</p>
                     </div>
                 </div>
                 <div class="join-us-infos" id="animation-d">
@@ -106,10 +110,10 @@
                         <div class="logo-circle-small">
                             <img src="assets/check.png" alt="">
                         </div>
-                        <p>En son teknolojilerle yüksek verimlilik sağlar</p>
+                        <p key="311">En son teknolojilerle yüksek verimlilik sağlar</p>
                     </div>
                 </div>
-                <a href="contactus.html"><button id="animation-d"><a href="contactus.html">İletişime Geç</a></button></a>
+                <a href="contactus.html"><button id="animation-d"><a href="contactus.html" key="312">İletişime Geç</a></button></a>
             </div>
             <div class="join-us-img">
                 <img src="assets/g1-image.jpg" alt="" id="animation-r">
@@ -117,8 +121,8 @@
         </div>
         <div class="about-us-info">
             <div class="about-info-texts">
-                <h2 class="block-header" id="pop-up">Teknolojiyi Yeniden Keşfedin</h2>
-                <p class="block-p" id="animation-d">Sürekli gelişen teknolojiyi öncülüyoruz. İş süreçlerinizi optimize edip rekabet avantajı sağlıyoruz. Detaylı bilgi için bize ulaşın veya web sitemizi ziyaret edin.</p>
+                <h2 class="block-header" id="pop-up" key="313">Teknolojiyi Yeniden Keşfedin</h2>
+                <p class="block-p" id="animation-d" key="314">Sürekli gelişen teknolojiyi öncülüyoruz. İş süreçlerinizi optimize edip rekabet avantajı sağlıyoruz. Detaylı bilgi için bize ulaşın veya web sitemizi ziyaret edin.</p>
             </div>
             <div class="about-info-img">
                 <img src="assets/mainimage.jpg" alt="">
@@ -128,8 +132,8 @@
         <div class="our-team">
            <div class="block">
                 <div class="block-text">
-                    <h2 class="block-header" id="pop-up">Ekibimizle Tanışın</h2>
-                    <p class="block-p" id="animation-d">Arteis ekibi, teknolojiye tutkulu profesyonellerden oluşur. İşinizi geliştirmenize nasıl yardımcı olabileceğimizi keşfedin</p>
+                    <h2 class="block-header" id="pop-up" key="315">Ekibimizle Tanışın</h2>
+                    <p class="block-p" id="animation-d" key="316">Arteis ekibi, teknolojiye tutkulu profesyonellerden oluşur. İşinizi geliştirmenize nasıl yardımcı olabileceğimizi keşfedin</p>
                 </div>
            </div>
             <div class="team-photos-container">
@@ -145,11 +149,11 @@
                     <img src="assets/mark_as_unread_20dp_FILL0_wght400_GRAD0_opsz20 (2).png" alt="" class="bookcallimg">
                 </div>
                 <div class="text-content" id="animation-r">
-                    <h1>Projenizi hayata mı geçirmek istiyorsunuz?</h1>
-                    <p>Bizimle iletişime geçin! Deneyimli ekibimiz, yenilikçi ve özelleştirilmiş yazılım çözümleri sunar. Fikirlerinizi gerçeğe dönüştürmek ve işinizi bir sonraki seviyeye taşımak için buradayız. Gelin, birlikte harika işler başaralım!</p>
+                    <h1 key="47">Projenizi hayata mı geçirmek istiyorsunuz?</h1>
+                    <p key="48">Bizimle iletişime geçin! Deneyimli ekibimiz, yenilikçi ve özelleştirilmiş yazılım çözümleri sunar. Fikirlerinizi gerçeğe dönüştürmek ve işinizi bir sonraki seviyeye taşımak için buradayız. Gelin, birlikte harika işler başaralım!</p>
                 </div>
             </div>
-            <button class="shadow__btn" id="animation-d"><a href="contactus.html">İletişime Geç</a></button>
+            <button class="shadow__btn" id="animation-d" key=""><a href="contactus.html" key="104">İletişime Geç</a></button>
         </div>
         <footer class="footer">
             <div class="row-footer">
@@ -163,25 +167,25 @@
               </div>
         
               <div class="col">
-                <h3>Sayfalar</h3>
-                <a href="index.html"> <p>Anasayfa</p></a>
-                <a href="about.html"> <p>Hakkımızda</p></a>
-               <a href="#uzmanlıklar">  <p>Uzmanlıklar</p></a>
-               <a href="contactus.html">  <p>İletişim</p></a>
+                <h3 key="50">Sayfalar</h3>
+                <a href="index.html"> <p key="51">Anasayfa</p></a>
+                <a href="about.html"> <p key="52">Hakkımızda</p></a>
+               <a href="#uzmanlıklar">  <p key="53">Uzmanlıklar</p></a>
+               <a href="contactus.html">  <p key="54">İletişim</p></a>
               </div>
               <div class="col">
                 <a href="mainservis.html">
-                <h3>Hizmetler</h3>
-                <p>Süreç Ve Uygulama Danışmanlığı</p>
-                <p>Proje Yönetimi</p>
-                <p>Destek Hizmetleri</p>
-                <p>Arteis Çözümler</p>
+                <h3 key="55">Hizmetler</h3>
+                <p key="56">Süreç Ve Uygulama Danışmanlığı</p>
+                <p key="57">Proje Yönetimi</p>
+                <p key="58">Destek Hizmetleri</p>
+                <p key="59">Arteis Çözümler</p>
             </a>
               </div>
         
               <div class="col">
-                <h3>Haber Bülteni</h3>
-                <p>Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
+                <h3 key="60">Haber Bülteni</h3>
+                <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
                 <form>
                   <input type="email" name="" id="" placeholder="E-Mail adresinizi girin" class="form-input">
                   <button class="button-36" role="button">Abone Ol</button>
@@ -193,6 +197,7 @@
     </div>
 </body>
 <script src="JS/app.js"></script>
+<script src="language.js"></script>
 <script>
     $(window).on('load', function() {
        setTimeout(function() {

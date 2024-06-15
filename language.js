@@ -9,9 +9,9 @@ $(document).ready(function() {
             '6': 'Arteis Yenilikçi Yazılım Çözümleriyle İşinizi Geliştirin',
             '7': 'Arteis, yenilikçi yazılım çözümleri sunarak iş süreçlerinizi optimize eder ve rekabet avantajı sağlar. Teknolojiye dayalı çözümlerimizle işinizi geliştirmek için buradayız.',
             '8': 'Arteis Çözümler',
-            '9': 'TURKCE TURKCE TURKCE TURKCE TURKCE',
+            '9': 'Güçlü Çözümler, İnovatif Gelecek',
             '10': 'Proje Yönetimi',
-            '11': 'TURKCE TURKCE TURKCE TURKCE TURKCE',
+            '11': 'Proje Yönetiminde Güvenilir Adres',
             '12': 'Müşteri',
             '13': 'Proje',
             '14': 'Sektör',
@@ -41,7 +41,7 @@ $(document).ready(function() {
             '38':'Müşteri Memnuniyeti',
             '39':'Müşteri ihtiyaçlarına odaklanarak, işbirliği ve şeffaflık ilkeleriyle özelleştirilmiş çözümler sunuyoruz, uzun vadeli iş ilişkileri kurmayı hedefliyoruz.',
             '40':'"Arteis yazılım çözümleri sayesinde iş süreçlerimiz inanılmaz hızlandı ve verimlilik arttı. Kullanıcı dostu arayüzü ile herkes kolayca adapte oldu. Kesinlikle tavsiye ederim!"',
-            '41':'"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."',
+            '41':'"Yazılım şirketinizin sunduğu yenilikçi çözümler ve mükemmel müşteri odaklı hizmetiniz gerçekten etkileyici. Teknoloji alanında liderliğinizi sürdürmenizden dolayı takdir ediyorum."',
             '42':'"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."',
             '43':'Teknolojide Her Zaman Güncel',
             '44':'SAP ERP, SAP S/4HANA Lojistik ve Finansal Uygulamalar',
@@ -81,7 +81,7 @@ $(document).ready(function() {
                 '110': 'SAP S/4HANA Conversion',
                 '111': 'işletmelerin eski SAP ERP sistemlerini modern ve daha yenilikçi bir yapı olan SAP S/4HANA\'ya geçiş sürecini ifade eder. Bu dönüşüm, işletmelerin operasyonel verimliliği artırmasına, iş süreçlerini optimize etmesine ve gerçek zamanlı veri analizi ile daha hızlı kararlar almasına olanak tanır.',
                 '112': 'Diğer Hizmetlerimiz ',
-                '113': 'SAP İş Analitikleri <br>SAP Customer <br> Activity RepositoryForecast and Replenishment <br> SAP Fiori <br> SAP ABAP <br>SAP Workflow',
+                '113': 'SAP İş Analitikleri, SAP Customer Activity Repository, Forecast and Replenishment,  SAP Fiori,  SAP ABAP, SAP Workflow',
                 '114': 'Müşteri',
                 '115': 'Proje',
                 '116': 'Sektör',
@@ -130,8 +130,36 @@ $(document).ready(function() {
              '219':'Firmanızın sahip olduğu teknoloji ve altyapı hakkında bilgi verebilir misiniz?',
              '220':'Güçlü bir teknik altyapıya sahibiz ve projelerimizde kullanılan en son teknolojileri takip ediyoruz. Gelişmiş yazılım dilleri, frameworkler ve veri tabanı yönetim sistemleri kullanarak güvenilir ve ölçeklenebilir çözümler sunuyoruz.',
            
+             
+                '300': 'Hakkımızda',
+                '301': 'Biz kimiz ve Nasıl Çözümler Sağlıyoruz?',
+                '302': 'ARTEIS BİLİŞİM, SAP ürünleri ve uygulama alanlarında uçtan uca çözüm sağlamak amacıyla, alanlarında 13+ tecrübe yılına sahip uzman danışmanlar tarafından kurulmuştur.',
+                '303': 'Yenilikçi Yazılım Çözümlerinde Arteis Farkı',
+                '304': 'Arteis, yenilikçi yazılım çözümleri sunan ve teknolojiye öncülük eden bir yazılım şirketidir. 2015 yılında bir grup tutkulu yazılım mühendisi ve teknoloji meraklısı tarafından kurulan Arteis, kısa sürede sektörde kendine sağlam bir yer edinmiş ve sayısız başarılı projeye imza atmıştır.',
+                '305': 'Müşteri',
+                '306': 'Proje',
+                '307': 'Tecrübe',
+                '308': 'Yazılım Şirketimizin Sunduğu Üstün Hizmetler',
+                '309': 'Hızlı ve güvenilir yazılım çözümleri sunar.',
+                '310': 'Müşteri odaklı ve yenilikçi projeler geliştirir',
+                '311': 'En son teknolojilerle yüksek verimlilik sağlar',
+                '312': 'İletişime Geç',
+                '313': 'Teknolojiyi Yeniden Keşfedin',
+                '314': 'Sürekli gelişen teknolojiyi öncülüyoruz. İş süreçlerinizi optimize edip rekabet avantajı sağlıyoruz. Detaylı bilgi için bize ulaşın veya web sitemizi ziyaret edin.',
+                '315': 'Ekibimizle Tanışın',
+                '316': 'Arteis ekibi, teknolojiye tutkulu profesyonellerden oluşur. İşinizi geliştirmenize nasıl yardımcı olabileceğimizi keşfedin',
+                '400': 'Daha Fazla',
+            
+            
+        
+             
 
-          
+
+
+
+
+
+
         },
         'en': {
             '1': 'Home',
@@ -142,9 +170,9 @@ $(document).ready(function() {
             '6': 'Improve Your Business with Arteis Software Solutions',
             '7': 'Arteis optimizes your business processes and provides a competitive edge through innovative software solutions. We are here to enhance your business with technology-driven solutions.',
             '8': 'Arteis Solutions',
-            '9': 'ENGLISH ENGLISH ENGLISH ENGLISH ENGLISH',
+            '9': 'Strong Solutions, Innovative Future',
             '10': 'Project Management',
-            '11': 'ENGLISH ENGLISH ENGLISH ENGLISH ENGLISH',
+            '11': 'A Trusted Address in Project Management',
             '12': 'Customer',
             '13': 'Project',
             '14': 'Sector',
@@ -174,7 +202,7 @@ $(document).ready(function() {
             '38': 'Customer Satisfaction',
             '39': 'Focusing on customer needs, we provide customized solutions with collaboration and transparency principles, aiming to build long-term business relationships.',
             '40': '"Thanks to Arteis software solutions, our business processes have accelerated incredibly and productivity has increased. Everyone easily adapted to the user-friendly interface. I definitely recommend it!"',
-            '41': '"Arteis fully met our business software needs. The technical support team is always helpful and finds quick solutions to problems. We are very satisfied with our collaboration."',
+            '41': '"Your software companys innovative solutions and excellent customer-centric service are truly impressive. I appreciate your continued leadership in the technology field."',
             '42': '"Arteis fully met our business software needs. The technical support team is always helpful and finds quick solutions to problems. We are very satisfied with our collaboration."',
             '43': 'Always Up-to-Date in Technology',
             '44': 'SAP ERP, SAP S/4HANA Logistics and Financial Applications',
@@ -249,7 +277,27 @@ $(document).ready(function() {
                
             
             
-
+            
+                '300': 'About Us',
+                '301': 'Who We Are and How We Provide Solutions?',
+                '302': 'ARTEIS IT was founded by expert consultants with over 13 years of experience in providing end-to-end solutions in SAP products and application areas.',
+                '303': 'The Arteis Difference in Innovative Software Solutions',
+                '304': 'Arteis is a software company that provides innovative software solutions and leads in technology. Founded in 2015 by a group of passionate software engineers and technology enthusiasts, Arteis has quickly established a solid position in the industry and has successfully completed numerous projects.',
+                '305': 'Customers',
+                '306': 'Projects',
+                '307': 'Experience',
+                '308': 'Superior Services Offered by Our Software Company',
+                '309': 'Provides fast and reliable software solutions.',
+                '310': 'Develops customer-focused and innovative projects.',
+                '311': 'Ensures high efficiency with the latest technologies.',
+                '312': 'Contact Us',
+                '313': 'Rediscover Technology',
+                '314': 'We lead the constantly evolving technology. We optimize your business processes and provide competitive advantage. Contact us for detailed information or visit our website.',
+                '315': 'Meet Our Team',
+                '316': 'The Arteis team consists of passionate professionals dedicated to technology. Discover how we can help you improve your business.',
+                 '400': 'More',
+            
+            
 
 
 
