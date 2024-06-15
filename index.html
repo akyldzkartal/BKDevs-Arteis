@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Arteis - Art of Technology</title>
 </head>
 <body>
     <div class="container">
+        <div class="bottom-right">
+            <button id="btn-tr">Türkçe</button>
+            <button id="btn-en">English</button>
+          </div>
         <nav>
             <div class="logo">
                 <a href="index.html"><img src="assets/arteis.png" alt=""></a>
             </div>
             <div class="openMenu"><i class="fa fa-bars" style="color: white;"></i></div>
             <ul class="mainMenu">
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="mainservis.html">Hizmetler</a></li>
-                <li><a href="#uzmanlıklar">Uzmanlıklar</a></li>
-                <li><a href="about.html">Hakkımızda</a></li>
-               <a href="contactus.html"> <button class="headerbutton" role="button">İletişime Geç</button></a>
+                <li><a href="index.html" key="1">Anasayfa</a></li>
+                <li><a href="mainservis.html" key="2">Hizmetler</a></li>
+                <li><a href="#uzmanlıklar" key="3">Uzmanlıklar</a></li>
+                <li><a href="about.html" key="4">Hakkımızda</a></li>
+               <a href="contactus.html"> <button class="headerbutton" role="button" key="5">İletişime Geç</button></a>
                 <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: white;"></i></div>
                 <span class="icons">
                    <a href="https://www.facebook.com/ArteisConsulting/"><i class="fab fa-facebook fa-xl"></i></a>
@@ -40,20 +45,20 @@
     <main>
         <section class="hero">
             <div class="hero-text">
-                <h1 id="animation-u">Arteis Yenilikçi Yazılım Çözümleriyle İşinizi Geliştirin</h1>
-            <p class="hero-p" id="animation-d">Arteis, yenilikçi yazılım çözümleri sunarak iş süreçlerinizi optimize eder ve rekabet avantajı sağlar. Teknolojiye dayalı çözümlerimizle işinizi geliştirmek için buradayız.
+                <h1 id="animation-u" key="6">Arteis Yenilikçi Yazılım Çözümleriyle İşinizi Geliştirin</h1>
+            <p class="hero-p" id="animation-d" key="7">Arteis, yenilikçi yazılım çözümleri sunarak iş süreçlerinizi optimize eder ve rekabet avantajı sağlar. Teknolojiye dayalı çözümlerimizle işinizi geliştirmek için buradayız.
             </p>
             <div class="hero-services" id="animation-d">
                <div class="hero-services-box">
                     <img src="assets/style.png" alt="">
-                    <h2>Arteis Çözümler</h2>
-                    <p>Create a seamless and intuitive user experience
+                    <h2 key="8">Arteis Çözümler</h2>
+                    <p key="9">Create a seamless and intuitive user experience
                     </p>
                </div>
                 <div class="hero-services-box">
                     <img src="assets/light.png" alt="">
-                    <h2>Proje Yönetimi</h2>
-                    <p>Create a seamless and intuitive user experience
+                    <h2 key="10">Proje Yönetimi</h2>
+                    <p key="11">Create a seamless and intuitive user experience
                     </p>
                 </div>
             </div>
@@ -74,7 +79,7 @@
    <h1>         
     <span id="count1"></span>
  </h1>
-<p>Müşteri
+<p key="12">Müşteri
 
 </p>
 </div>
@@ -82,7 +87,7 @@
     <h1>         
      <span id="count2"></span>
   </h1>
- <p>Proje
+ <p key="13">Proje
      
  </p>
  </div>
@@ -90,7 +95,7 @@
     <h1>         
      <span id="count3"></span>
   </h1>
- <p>Sektör
+ <p key="14">Sektör
      
  </p>
  </div>
@@ -98,7 +103,7 @@
     <h1>         
      <span id="count4"></span>
   </h1>
- <p>Tecrübe
+ <p key="15">Tecrübe
      
  </p>
  </div>
@@ -108,15 +113,15 @@
     <div class="services">
         <div class="serviceAll">
     <div class="service">
-        <h2 class="services-header" id="pop-up">Şirketimizin Sunduğu Hizmetler</h2>
-        <h3 class="services-p" id="animation-d">Arteis olarak, yazılım geliştirme, dijital dönüşüm, veri analitiği ve bulut çözümleri gibi geniş bir yelpazede hizmet sunuyoruz. Müşterilerimize en son teknolojileri kullanarak işlerini daha verimli hale getirmelerinde yardımcı oluyoruz.</h3>
+        <h2 class="services-header" id="pop-up" key="16">Şirketimizin Sunduğu Hizmetler</h2>
+        <h3 class="services-p" id="animation-d" key="17">Arteis olarak, yazılım geliştirme, dijital dönüşüm, veri analitiği ve bulut çözümleri gibi geniş bir yelpazede hizmet sunuyoruz. Müşterilerimize en son teknolojileri kullanarak işlerini daha verimli hale getirmelerinde yardımcı oluyoruz.</h3>
         <div class="cards">
 
             <div class="card" id="animation-l">
             <img src="images-service/clock_loader_20_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60px">
             <a href="mainservis.html">
-            <h2>Stratejik Yönetim</h2>
-                <p>Süreç ve uygulama danışmanlığı, iş süreçlerini analiz edip optimize ederek, yeni uygulamalarla verimliliği artırır, rekabet avantajı sağlar.</p>
+            <h2 key="18">Stratejik Yönetim</h2>
+                <p key="19">Süreç ve uygulama danışmanlığı, iş süreçlerini analiz edip optimize ederek, yeni uygulamalarla verimliliği artırır, rekabet avantajı sağlar.</p>
             </a>
               
             </div>
@@ -124,8 +129,8 @@
                 
                 <img src="images-service/hub_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60px">
                 <a href="mainservis.html">
-            <h2>Proje Yönetimi</h2>
-            <p>Proje yönetimi, hedeflere ulaşmak için planlama, yürütme ve izleme yapar, zaman, bütçe ve kalite standartlarına uygun tamamlanmayı sağlar ve riskleri minimize eder.</p>
+            <h2 key="20">Proje Yönetimi</h2>
+            <p key="21">Proje yönetimi, hedeflere ulaşmak için planlama, yürütme ve izleme yapar, zaman, bütçe ve kalite standartlarına uygun tamamlanmayı sağlar ve riskleri minimize eder.</p>
         </a>
                 
             </div>
@@ -133,8 +138,8 @@
                 
                 <img src="images-service/person_raised_hand_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60px">
                 <a href="mainservis.html">
-                <h2>Destek Hizmetleri</h2>
-            <p>Destek hizmetleri, operasyonların kesintisiz devamını sağlar; teknik yardım, sorun çözme ve müşteri memnuniyetini artırır.</p>
+                <h2 key="22">Destek Hizmetleri</h2>
+            <p key="23">Destek hizmetleri, operasyonların kesintisiz devamını sağlar; teknik yardım, sorun çözme ve müşteri memnuniyetini artırır.</p>
         </a>
               
             </div>
@@ -142,8 +147,8 @@
                 
                 <img src="images-service/hub_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60px">
                 <a href="mainservis.html">
-            <h2>Arteis Hizmetleri</h2>
-            <p>Arteis, yazılım çözümleriyle işletmelerin dijital dönüşümünü destekler; yenilikçi yazılım geliştirme, danışmanlık ve proje yönetimi sunar, iş verimliliğini artırır.</p>
+            <h2 key="24">Arteis Hizmetleri</h2>
+            <p key="25">Arteis, yazılım çözümleriyle işletmelerin dijital dönüşümünü destekler; yenilikçi yazılım geliştirme, danışmanlık ve proje yönetimi sunar, iş verimliliğini artırır.</p>
             </a>
  
             </div>
@@ -158,20 +163,20 @@
             <img src="assets/g1-image.jpg" alt="" id="animation-l">
             <div class="features-g1-boxes">
                 <div class="g1-box" id="animation-l">
-                    <h3 class="box-header">Hizmetlerimiz</h3>
-                    <p>Arteis, yazılım geliştirme, dijital dönüşüm, veri analitiği ve bulut çözümleri sunar.</p>
-                    <a href="#uzmanlıklar">Daha Fazla ></a>
+                    <h3 class="box-header" key="26">Hizmetlerimiz</h3>
+                    <p key="27">Arteis, yazılım geliştirme, dijital dönüşüm, veri analitiği ve bulut çözümleri sunar.</p>
+                    <a href="#uzmanlıklar" key="28">Daha Fazla ></a>
                 </div>
                 <div class="g1-box" id="animation-l">
-                    <h3 class="box-header">İletişim</h3>
-                    <p>Bizimle iletişime geçmek için lütfen web sitemizi ziyaret edin veya doğrudan bizimle iletişime geçin.</p>
-                    <a href="contactus.html">Daha Fazla ></a>
+                    <h3 class="box-header" key="29">İletişim</h3>
+                    <p key="30">Bizimle iletişime geçmek için lütfen web sitemizi ziyaret edin veya doğrudan bizimle iletişime geçin.</p>
+                    <a href="contactus.html" key="31">Daha Fazla ></a>
                 </div>
             </div>
         </div>
         <div class="features-texts-box">
-            <h2 id="pop-up">İş Süreciniz için Teknoloji Lideri</h2>
-            <p id="animation-d">Arteis, yenilikçi yazılım çözümleri sunan bir teknoloji şirketidir. Müşterilerimize işlerini geliştirmeleri için en son teknolojileri ve özelleştirilmiş çözümleri sağlıyoruz.</p>
+            <h2 id="pop-up" key="32">İş Süreciniz için Teknoloji Lideri</h2>
+            <p id="animation-d" key="33">Arteis, yenilikçi yazılım çözümleri sunan bir teknoloji şirketidir. Müşterilerimize işlerini geliştirmeleri için en son teknolojileri ve özelleştirilmiş çözümleri sağlıyoruz.</p>
         </div>
     </div>
     <section class="features">
@@ -183,8 +188,8 @@
                     </div>
                 </div>
                 <div class="feature-text">
-                    <h1>Güvenilir Çözümler</h1>
-                    <p>Geçmiş başarılarımızla kanıtlanmış güvenilir çözümler sunuyoruz, iş süreçlerini optimize etmek ve operasyonel mükemmelliği desteklemek için tasarlanmış.</p>
+                    <h1 key="34">Güvenilir Çözümler</h1>
+                    <p key="35">Geçmiş başarılarımızla kanıtlanmış güvenilir çözümler sunuyoruz, iş süreçlerini optimize etmek ve operasyonel mükemmelliği desteklemek için tasarlanmış.</p>
                 </div>
             </div> 
             <div class="feature" id="animation-d">
@@ -194,8 +199,8 @@
                     </div>
                 </div>
                 <div class="feature-text">
-                    <h1>Yenilikçi Yaklaşım</h1>
-                    <p>Teknoloji ve sektör trendlerini takip ederek, müşterilerimize rekabet avantajı sağlayacak yenilikçi çözümler geliştiriyoruz.</p>
+                    <h1 key="36">Yenilikçi Yaklaşım</h1>
+                    <p key="37">Teknoloji ve sektör trendlerini takip ederek, müşterilerimize rekabet avantajı sağlayacak yenilikçi çözümler geliştiriyoruz.</p>
                 </div>
             </div> 
             <div class="feature" id="animation-d">
@@ -205,8 +210,8 @@
                     </div>
                 </div>
                 <div class="feature-text">
-                    <h1>Müşteri Memnuniyeti</h1>
-                    <p>Müşteri ihtiyaçlarına odaklanarak, işbirliği ve şeffaflık ilkeleriyle özelleştirilmiş çözümler sunuyoruz, uzun vadeli iş ilişkileri kurmayı hedefliyoruz.</p>
+                    <h1 key="38">Müşteri Memnuniyeti</h1>
+                    <p key="39">Müşteri ihtiyaçlarına odaklanarak, işbirliği ve şeffaflık ilkeleriyle özelleştirilmiş çözümler sunuyoruz, uzun vadeli iş ilişkileri kurmayı hedefliyoruz.</p>
                 </div>
             </div>
         </div>
@@ -220,7 +225,7 @@
         <div class="testi-content swiper-wrapper">
           <div class="slide swiper-slide">
             
-            <p id="pop-up">"Arteis yazılım çözümleri sayesinde iş süreçlerimiz inanılmaz hızlandı ve verimlilik arttı. Kullanıcı dostu arayüzü ile herkes kolayca adapte oldu. Kesinlikle tavsiye ederim!"</p>
+            <p id="pop-up" key="40">"Arteis yazılım çözümleri sayesinde iş süreçlerimiz inanılmaz hızlandı ve verimlilik arttı. Kullanıcı dostu arayüzü ile herkes kolayca adapte oldu. Kesinlikle tavsiye ederim!"</p>
             <img src="swiper/1_3CVNY3sWvZrS1NckQ9kIqQ.jpg" alt="" class="image" id="pop-up">
             <div class="details">
                 <span class="name">Ayşe Kılıçlıoğlu</span>
@@ -229,7 +234,7 @@
           </div>
           <div class="slide swiper-slide">
             
-            <p>"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."</p>
+            <p key="41">"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."</p>
             <img src="swiper/dBRXFFE.jpg" alt="" class="image">
             <div class="details">
                 <span class="name">Emre Gürsoy</span>
@@ -238,7 +243,7 @@
           </div>
           <div class="slide swiper-slide">
             
-            <p>"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."</p>
+            <p key="42">"Arteis, işletmemizin yazılım ihtiyaçlarını tam anlamıyla karşıladı. Teknik destek ekibi her zaman yardımcı ve sorunlara hızlı çözümler buluyor. İşbirliğimizden çok memnunuz."</p>
             <img src="swiper/000104.webp" alt="" class="image">
             <div class="details">
                 <span class="name">Elif Altınbaş</span>
@@ -253,27 +258,27 @@
       </div>
  </section>
  <div class="updates" id="uzmanlıklar">
-    <h2 class="updates-header" id="pop-up">Teknolojide Her Zaman Güncel</h2>
+    <h2 class="updates-header" id="pop-up" key="43">Teknolojide Her Zaman Güncel</h2>
 <div class="updates-box" id="animation-d">
     <div class="inner-updates-box">
         <img src="assets/updateimg.jpg" alt="" class="updates-image">
         <div class="updates-texts">
             <p class="date">Apr 8, 2024</p>
-            <p class="updates-p">SAP ERP, SAP S/4HANA Lojistik ve Finansal Uygulamalar</p>
+            <p class="updates-p" key="44">SAP ERP, SAP S/4HANA Lojistik ve Finansal Uygulamalar</p>
         </div>
     </div>
     <div class="inner-updates-box">
         <img src="assets/updateimg1.jpg" alt="" class="updates-image">
         <div class="updates-texts">
             <p class="date">Mar 15, 2023</p>
-            <p class="updates-p">CSAP İş Analitikleri (BI, BO, Hana Embedded Analytics)</p>
+            <p class="updates-p" key="45">CSAP İş Analitikleri (BI, BO, Hana Embedded Analytics)</p>
         </div>
     </div>
     <div class="inner-updates-box">
         <img src="assets/updateimg2.jpg" alt="" class="updates-image">
         <div class="updates-texts">
             <p class="date">Feb 28, 2024</p>
-            <p class="updates-p">SAP Hybris E-Commerce, SAP C/4HANA (B2B, B2C)</p>
+            <p class="updates-p" key="46">SAP Hybris E-Commerce, SAP C/4HANA (B2B, B2C)</p>
         </div>
     </div>
 </div>
@@ -284,11 +289,11 @@
             <img src="assets/mark_as_unread_20dp_FILL0_wght400_GRAD0_opsz20 (2).png" alt="" class="bookcallimg">
         </div>
         <div class="text-content" id="animation-r">
-            <h1>Projenizi hayata mı geçirmek istiyorsunuz?</h1>
-            <p>Projenizi hayata geçirmek için bizimle iletişime geçin. Deneyimli ekibimiz ve yenilikçi çözümlerimizle size yardımcı olmaktan memnuniyet duyarız.</p>
+            <h1 key="47">Projenizi hayata mı geçirmek istiyorsunuz?</h1>
+            <p key="48">Projenizi hayata geçirmek için bizimle iletişime geçin. Deneyimli ekibimiz ve yenilikçi çözümlerimizle size yardımcı olmaktan memnuniyet duyarız.</p>
         </div>
     </div>
-    <a href="contactus.html"> <button class="shadow__btn" id="animation-d">İletişime Geç</button></a>
+    <a href="contactus.html"> <button class="shadow__btn" id="animation-d" key="49">İletişime Geç</button></a>
 </div>
 <footer class="footer">
     <div class="row-footer">
@@ -302,25 +307,25 @@
       </div>
 
       <div class="col">
-        <h3>Sayfalar</h3>
-        <a href="index.html"> <p>Anasayfa</p></a>
-        <a href="about.html"> <p>Hakkımızda</p></a>
-       <a href="#uzmanlıklar">  <p>Uzmanlıklar</p></a>
-       <a href="contactus.html">  <p>İletişim</p></a>
+        <h3 key="50">Sayfalar</h3>
+        <a href="index.html"> <p key="51">Anasayfa</p></a>
+        <a href="about.html"> <p key="52">Hakkımızda</p></a>
+       <a href="#uzmanlıklar">  <p key="53">Uzmanlıklar</p></a>
+       <a href="contactus.html">  <p key="54">İletişim</p></a>
       </div>
       <div class="col">
         <a href="mainservis.html">
-        <h3>Hizmetler</h3>
-        <p>Süreç Ve Uygulama Danışmanlığı</p>
-        <p>Proje Yönetimi</p>
-        <p>Destek Hizmetleri</p>
-        <p>Arteis Çözümler</p>
+        <h3 key="55">Hizmetler</h3>
+        <p key="56">Süreç Ve Uygulama Danışmanlığı</p>
+        <p key="57">Proje Yönetimi</p>
+        <p key="58">Destek Hizmetleri</p>
+        <p key="59">Arteis Çözümler</p>
     </a>
       </div>
 
       <div class="col">
-        <h3>Haber Bülteni</h3>
-        <p>Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
+        <h3 key="60">Haber Bülteni</h3>
+        <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
         <form>
           <input type="email" name="" id="" placeholder="E-Mail adresinizi girin" class="form-input">
           <button class="button-36" role="button">Abone Ol</button>
@@ -353,5 +358,6 @@
       },
     });
   </script>
+  <script src="language.js"></script>
 </body>
 </html>
