@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/CSS/about.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <div class="loader"> 
+        <figure>
+        <div style="--i: 1"></div>
+        <div style="--i: 2"></div>
+        <div style="--i: 3"></div>
+        <div style="--i: 4"></div>
+        <div style="--i: 5"></div>
+        <div style="--i: 6"></div>
+        <div style="--i: 7"></div>
+        <div style="--i: 8"></div>
+        <div style="--i: 9"></div>
+        <div style="--i: 10"></div>
+        <div style="--i: 11"></div>
+        <div style="--i: 12"></div>
+      </figure>
+        </div>
     <div class="container">
         <nav>
             <div class="logo">
@@ -18,7 +35,7 @@
             <ul class="mainMenu">
                 <li><a href="index.html">Anasayfa</a></li>
                 <li><a href="mainservis.html">Hizmetler</a></li>
-                <li><a href="#uzmanlıklar">Uzmanlıklar</a></li>
+                <li><a href="mainservis.html">Uzmanlıklar</a></li>
                 <li><a href="about.html">Hakkımızda</a></li>
                <a href="contactus.html"> <button class="headerbutton" role="button">İletişime Geç</button></a>
                 <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: white;"></i></div>
@@ -176,4 +193,18 @@
     </div>
 </body>
 <script src="JS/app.js"></script>
+<script>
+    $(window).on('load', function() {
+       setTimeout(function() {
+           $(".loader").addClass('hidden');
+           $(".loader").fadeOut(1000);
+           console.log('Loader hidden class added'); // Konsolda bu mesajı kontrol edin
+           $(".container").fadeIn(1000);
+       }, 2000); // 2 saniye bekler
+   });
+   
+   
+   
+   
+   </script>
 </html>

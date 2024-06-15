@@ -13,7 +13,24 @@
     <title>Arteis - Art of Technology</title>
 </head>
 <body>
+    <div class="loader"> 
+        <figure>
+        <div style="--i: 1"></div>
+        <div style="--i: 2"></div>
+        <div style="--i: 3"></div>
+        <div style="--i: 4"></div>
+        <div style="--i: 5"></div>
+        <div style="--i: 6"></div>
+        <div style="--i: 7"></div>
+        <div style="--i: 8"></div>
+        <div style="--i: 9"></div>
+        <div style="--i: 10"></div>
+        <div style="--i: 11"></div>
+        <div style="--i: 12"></div>
+      </figure>
+        </div>
     <div class="container">
+       
         <div class="bottom-right">
             <button id="btn-tr">Türkçe</button>
             <button id="btn-en">English</button>
@@ -359,5 +376,19 @@
     });
   </script>
   <script src="language.js"></script>
+  <script>
+    $(window).on('load', function() {
+       setTimeout(function() {
+           $(".loader").addClass('hidden');
+           $(".loader").fadeOut(1000);
+           console.log('Loader hidden class added'); // Konsolda bu mesajı kontrol edin
+           $(".container").fadeIn(1000);
+       }, 2000); // 2 saniye bekler
+   });
+   
+   
+   
+   
+   </script>
 </body>
 </html>
