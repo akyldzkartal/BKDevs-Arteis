@@ -113,27 +113,31 @@ figure:nth-child(3) {
     justify-content: space-between;
     margin-top: 20px;
   }
+
+
   .headerbutton {
-background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
-border-radius: 10px;
-border-style: none;
-box-sizing: border-box;
-color: #FFFFFF;
-cursor: pointer;
-flex-shrink: 0;
-font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-font-size: 16px;
-font-weight: 500;
-height: 3rem;
-padding: 0 1.6rem;
-text-align: center;
-text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-transition: all .5s;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-margin-left: 10px;
-  }
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 10px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 10px;
+    
+
+}
   .headerbutton:hover{
     box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
     transition-duration: .2s;
@@ -726,7 +730,7 @@ p {
     color: white;
 }
 .logo-circle-p {
-    width: 120px;
+    width: 80px;
     height: 60px;
     border-radius: 50%;
     background-color: #4F46E5;
@@ -869,6 +873,32 @@ form input {
     transition-duration: .2s;
 }
 
+.bookcallbutton {
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    box-shadow: 0 0 25px #4F46E5;
+    transition: box-shadow 0.5s;
+    align-self: center;
+    padding: 10px 40px;
+    background-color: #4F46E5;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+    border: none; 
+    }
+    .bookcallbutton:hover {
+        box-shadow: 0 0 5px #4F46E5,
+                    0 0 25px #4F46E5,
+                    0 0 50px #4F46E5,
+                    0 0 100px #4F46E5;
+    }
+
+    .bookcallbutton a{
+        color: white;
+    }
+
 #animation-d, #animation-u, #animation-r, #animation-l, #pop-up {
     opacity: 0;
 }
@@ -905,7 +935,7 @@ form input {
 }
 @media only screen and (max-width: 768px) {
     .container {
-        padding: 0 10px; 
+        padding: 0 20px; 
     }
 
     .navbar {
@@ -920,6 +950,11 @@ form input {
     .hero {
         flex-direction: column; 
         gap: 0; 
+        padding: 50px 0;
+    }
+
+    .hero-text h1{
+        font-size: 46px;
     }
 
     .hero-image {
@@ -969,12 +1004,21 @@ form input {
         flex-direction: column;
         gap: 20px;
         width: 100%;
+        align-items: center;
+    }
+
+    .serviceAll{
+        padding: 50px 0;
     }
 
     .second-features-section {
         flex-direction: column;
         gap: 30px; 
         margin: 0 20px;
+    }
+
+    .logo-circle-p{
+        margin-bottom: 15px;
     }
 
     .features-image-box,
@@ -1056,9 +1100,17 @@ form input {
         gap: 0;
     }
 
+    .updates{
+        padding: 50px 0px;
+    }
+
     .inner-updates-box {
         height: auto;
         margin: 30px 0;
+    }
+
+    .testimonialcontainer{
+        padding: 50px 0;
     }
 
     .bookcall {
@@ -1066,6 +1118,9 @@ form input {
         text-align: center;
     }
 
+    .bookcall p{
+       width: 100%;
+    }
     .bookcalltext {
         margin-bottom: 20px;
         flex-direction: column;
@@ -1120,9 +1175,16 @@ form input {
 }
 
 
-
-
-
+@media (max-width: 480px) {
+    .inner-updates-box{
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #counter h1{
+        font-size: 1.5em;
+    }
+}
 
 
 
