@@ -63,7 +63,75 @@ $(document).ready(function() {
             '59':'Arteis Çözümler',
             '60':'Haber Bülteni',
             '61':'Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz',
+            '62': 'Abone Ol',
             // footer bitiş
+
+            //MainServis 
+
+           
+                '100': 'Anasayfa',
+                '101': 'Hizmetler',
+                '102': 'Uzmanlıklar',
+                '103': 'Hakkımızda',
+                '104': 'İletişime Geç',
+                '106': 'Lojistik Ve Finansal Uygulamalar',
+                '107': 'İşletmelerin tedarik zinciri verimliliğini artırırken aynı zamanda mali yönetimlerini optimize etmelerine olanak tanır. Bu alanlar, işletmeler için stratejik öneme sahiptir ve operasyonel kararları destekler.',
+                '108': 'SAP Hybris E-Commerce',
+                '109': 'Kullanıcı dostu arayüzleri ve güçlü entegrasyon özellikleriyle müşteri deneyimini iyileştirirken, işletmelere geniş ölçekte e-ticaret çözümleri sunar. Güvenilir altyapısıyla, işletmelerin dijital dönüşüm süreçlerinde etkin rol oynar ve rekabet avantajı sağlar.',
+                '110': 'SAP S/4HANA Conversion',
+                '111': 'işletmelerin eski SAP ERP sistemlerini modern ve daha yenilikçi bir yapı olan SAP S/4HANA\'ya geçiş sürecini ifade eder. Bu dönüşüm, işletmelerin operasyonel verimliliği artırmasına, iş süreçlerini optimize etmesine ve gerçek zamanlı veri analizi ile daha hızlı kararlar almasına olanak tanır.',
+                '112': 'Diğer Hizmetlerimiz ',
+                '113': 'SAP İş Analitikleri <br>SAP Customer <br> Activity RepositoryForecast and Replenishment <br> SAP Fiori <br> SAP ABAP <br>SAP Workflow',
+                '114': 'Müşteri',
+                '115': 'Proje',
+                '116': 'Sektör',
+                '117': 'Mobil Hizmetimiz',
+                '118': ' SAP Mobile Apps',
+                '119': 'Mobil cihazlar için geliştirilen SAP uygulamalarını içerir. İş süreçlerini mobil olarak yönetmeyi ve kullanıcıların erişimini kolaylaştırmayı amaçlar.',
+                '120': 'İletişime Geç',
+                '121': 'Endüstriyel Çözümlerimiz',
+                '122': 'IS-A-VMS',
+                '123': 'SAP\'nin endüstriyel çözümlerinden biridir ve İş Zeka ve Değerli Müşteri Yönetimi Sistemleri olarak da bilinir. Bu uygulamalar, işletmelerin veri yönetimini optimize etmelerine ve müşteri ilişkilerini geliştirmelerine olanak tanır.',
+                '124': 'İletişime Geç',
+                '125': 'Projenizi hayata mı geçirmek istiyorsunuz?',
+                '126': 'Bizimle iletişime geçin! Deneyimli ekibimiz, yenilikçi ve özelleştirilmiş yazılım çözümleri sunar. Fikirlerinizi gerçeğe dönüştürmek ve işinizi bir sonraki seviyeye taşımak için buradayız. Gelin, birlikte harika işler başaralım!',
+                '127': 'İletişime Geç',
+                '128': 'Sayfalar',
+                '129': 'Anasayfa',
+                '130': 'Hakkımızda',
+                '131': 'Uzmanlıklar',
+                '132': 'İletişim',
+                '133': 'Hizmetler',
+                '134': 'Süreç Ve Uygulama Danışmanlığı',
+                '135': 'Proje Yönetimi',
+                '136': 'Destek Hizmetleri',
+                '137': 'Arteis Çözümler',
+                '138': 'Haber Bülteni',
+                '139': 'Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz',
+                '140': 'Abone Ol',
+                '201':'Bizimle İletişime Geçin',
+             '202':'Arteis Bilişim Limited Şirketi',
+             '203':'İletişim Bilgilerimiz',
+             '204':'Bize Ulaşmak İçin Formu Kullanın',
+             '205':'Formu doldurun, ekibimiz en geç 24 saat içinde size geri dönecektir.',
+             '206':'Gönder',
+             '207':'Sıkça Sorulan Sorular',
+             '208':'Temel Bilgi ve Sıkça Sorulan Soruların Kapsamlı İncelemesi ve Detaylı Cevapları',
+             '209':'Projelerinizdeki iş teslim süreleri ne kadar sürer?',
+             '210':'Proje büyüklüğüne ve karmaşıklığına bağlı olarak değişkenlik göstermekle birlikte, genellikle zamanında teslimat sağlamak için titizlikle çalışıyoruz.',
+             '211':'Ürün veya hizmetinizin ana odak noktası nedir?',
+             '212':'Firmamız, özellikle özelleştirilmiş yazılım çözümleri ve dijital platformlar geliştirmeye odaklanmaktadır. Müşterilerimizin ihtiyaçlarına yönelik özelleştirilmiş çözümler sunarak onların iş süreçlerini optimize etmeyi hedefliyoruz.',
+             '213':'Yazılım geliştirme süreciniz nasıl işliyor?',
+             '214':'Yazılım geliştirme sürecimiz, ihtiyaç analizi ve tasarım aşamasından başlayarak, geliştirme, test ve son kullanıcı geri bildirimiyle devam eden aşamalardan oluşur. Sürekli iletişim halinde olduğumuz müşterilerimizin geri bildirimlerine dayalı olarak süreci şekillendiriyoruz.',
+             '215':'Destek hizmetleriniz neleri kapsıyor?',
+             '216':'Yazılımımızı kullanırken her türlü teknik destek ve güncelleme sağlıyoruz. Ayrıca, kullanıcı eğitimi ve danışmanlık hizmetleri de sunuyoruz.',
+             '217':'Müşteri memnuniyetini nasıl ölçüyorsunuz?',
+             '218':'Müşteri geri bildirimleriyle sürekli olarak müşteri memnuniyetini değerlendiriyoruz. Ayrıca proje sonrası değerlendirme toplantıları ve anketlerle de müşteri memnuniyetini ölçüyoruz.',
+             '219':'Firmanızın sahip olduğu teknoloji ve altyapı hakkında bilgi verebilir misiniz?',
+             '220':'Güçlü bir teknik altyapıya sahibiz ve projelerimizde kullanılan en son teknolojileri takip ediyoruz. Gelişmiş yazılım dilleri, frameworkler ve veri tabanı yönetim sistemleri kullanarak güvenilir ve ölçeklenebilir çözümler sunuyoruz.',
+           
+
+          
         },
         'en': {
             '1': 'Home',
@@ -127,10 +195,96 @@ $(document).ready(function() {
             '58': 'Support Services',
             '59': 'Arteis Solutions',
             '60': 'Newsletter',
-            '61': 'You can enter your email address to subscribe to our newsletter.'
+            '61': 'You can enter your email address to subscribe to our newsletter.',
+            '62': 'Subscribe',
              // footer
+
+                '100': 'Homepage',
+                '101': 'Services',
+                '102': 'Expertise',
+                '103': 'About Us',
+                '104': 'Contact Us',
+                '106': 'Logistics and Financial Applications',
+                '107': 'Enhances supply chain efficiency for businesses while optimizing their financial management. These areas are strategically important for businesses and support operational decision-making.',
+                '108': 'SAP Hybris E-Commerce',
+                '109': 'Improves customer experience with user-friendly interfaces and robust integration capabilities, offering extensive e-commerce solutions to businesses. With its reliable infrastructure, it plays a crucial role in businesses\' digital transformation processes and provides a competitive advantage.',
+                '110': 'SAP S/4HANA Conversion',
+                '111': 'Refers to the transition of businesses\' old SAP ERP systems to SAP S/4HANA, a more innovative and modern structure. This transformation enables businesses to enhance operational efficiency, optimize business processes, and make faster decisions with real-time data analysis.',
+                '112': 'Other Services',
+                '113': 'SAP Business Analytics,  SAP Customer  Activity Repository,  Forecast and Replenishment,  SAP Fiori,  SAP ABAP, SAP Workflow.',
+                '114': 'Clients',
+                '115': 'Projects',
+                '116': 'Industry',
+                '117': 'Mobile Services',
+                '118': 'SAP Mobile Apps',
+                '119': 'Includes SAP applications developed for mobile devices, aiming to manage business processes on mobile and facilitate user access.',
+                '120': 'Contact Us',
+                '121': 'Industrial Solutions',
+                '122': 'IS-A-VMS',
+                '123': 'One of SAP\'s industrial solutions, also known as Business Intelligence and Valuable Customer Management Systems. These applications enable businesses to optimize data management and enhance customer relationships.',
+                '124': 'Contact Us',
+                '125': 'Want to bring your project to life?',
+                '126': 'Get in touch with us! Our experienced team provides innovative and customized software solutions. We\'re here to turn your ideas into reality and take your business to the next level. Let\'s achieve great things together!',
+                '127': 'Contact Us',
+                '201': 'Contact Us',
+            '202': 'Arteis Art of Technology',
+            '203': 'Our Contact Information',
+            '204': 'Use the Form to Reach Us',
+            '205': 'Fill out the form, and our team will get back to you within 24 hours.',
+            '206': 'Submit',
+            '207': 'Frequently Asked Questions',
+            '208': 'Comprehensive Review and Detailed Answers to Basic Information and Frequently Asked Questions',
+            '209': 'What are the delivery times for your projects?',
+            '210': 'Delivery times vary depending on the size and complexity of the project, but we work diligently to ensure timely delivery.',
+            '211': 'What is the main focus of your product or service?',
+            '212': 'Our company focuses on developing customized software solutions and digital platforms. We aim to optimize our clients business processes by providing tailored solutions that meet their needs.',
+            '213': 'How does your software development process work?',
+            '214': 'Our software development process starts with needs analysis and design, followed by development, testing, and end-user feedback. We shape the process based on the feedback we receive from our clients through continuous communication.',
+            '215': 'What do your support services include?',
+            '216': 'We provide technical support and updates while using our software. Additionally, we offer user training and consultancy services.',
+            '217': 'How do you measure customer satisfaction?',
+            '218': 'We continuously evaluate customer satisfaction through customer feedback. We also measure customer satisfaction through post-project evaluation meetings and surveys.',
+            '219': 'Can you provide information about the technology and infrastructure your company uses?',
+            '220': 'We have a strong technical infrastructure and keep up with the latest technologies used in our projects. We offer reliable and scalable solutions using advanced programming languages, frameworks, and database management systems.',
+               
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         },
     };
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Dil butonlarına tıklama olaylarını ekleyin
     $('#btn-tr').click(function() {
