@@ -150,7 +150,11 @@ $(document).ready(function() {
                 '316': 'Arteis ekibi, teknolojiye tutkulu profesyonellerden oluşur. İşinizi geliştirmenize nasıl yardımcı olabileceğimizi keşfedin',
                 '400': 'Daha Fazla',
             
-            
+            '500':'Servisler',
+            '501':'Süreç ve Uygulamalar',
+            '502':'İşletmenizin verimliliğini ve etkinliğini artırmak için özelleştirilmiş yazılım süreçleri ve uygulamaları sunuyoruz.',
+
+
         
              
 
@@ -302,6 +306,9 @@ $(document).ready(function() {
 
 
 
+            '500': 'Services',
+            '501': 'Processes and Applications',
+            '502': 'We offer customized software processes and applications to enhance the productivity and efficiency of your business.',
 
 
 
