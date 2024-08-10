@@ -4,10 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    text-transform: lowercase;
 }
 
 body {
-    background-color: #151515;
+    background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -110,11 +111,11 @@ figure:nth-child(3) {
   }
 
   .headerbutton {
-    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    background-color: #006da6;
     border-radius: 10px;
     border-style: none;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
     flex-shrink: 0;
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
@@ -141,11 +142,18 @@ figure:nth-child(3) {
     display: flex;
     list-style: none;
   }
+
+  nav .mainMenu li a img{
+   padding-bottom: 10px;
+   width: 250px;
+  }
+
+
   nav .mainMenu li a {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: 400;
     transition: 0.2s ease;
@@ -155,7 +163,9 @@ figure:nth-child(3) {
   nav .mainMenu li a:hover {
     background: #4F46E5;
     border-radius: 8px;
+    color: white;
   }
+
   nav .openMenu {
     font-size: 2rem;
     margin: 20px;
@@ -167,7 +177,7 @@ figure:nth-child(3) {
     font-size: 1.5rem;
     display: none;
     cursor: pointer;
-    
+    margin-right: 50px;
   }
  .fa-times{
     margin-top: 40px;
@@ -195,7 +205,6 @@ figure:nth-child(3) {
     bottom: 20px; 
     right: 20px; 
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 100;
   }
   
@@ -207,7 +216,7 @@ figure:nth-child(3) {
     border-radius: 12px;
     border: none;
     background-color: #333;
-    color: white;
+    color: rgb(255, 255, 255);
   }
 
   .bottom-right button:hover {
@@ -230,7 +239,7 @@ figure:nth-child(3) {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgb(0, 0, 0);
+      background: rgb(255, 255, 255);
       transition: top 1s ease 0s;
       display: none;
     }
@@ -250,16 +259,16 @@ figure:nth-child(3) {
     }
     .icons i {
       display: inline-block;
-      padding: 12px;
-      margin-top: 30px;
+      margin-top: 50px;
     }
+
   }
 .hero {
     display: flex;
     justify-content: space-between; 
     align-items: stretch;
     gap: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 80px
 }
 
@@ -321,9 +330,9 @@ figure:nth-child(3) {
 .hero-button {
     border: none;
     border-radius: 6px;
-    background-color: #4F46E5;
+    background-color: #006da6;
     padding: 20px 24px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer; 
     transition: background-color 0.3s; 
     transition: opacity 0.6s linear, transform 0.6s linear;
@@ -343,8 +352,8 @@ figure:nth-child(3) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #151515;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding:  60px 0;
 }
 
@@ -370,7 +379,7 @@ p {
 }
 .services {
     width: 100%;
-    background-color: #151515;
+    background-color: #ffffff;
 }
 
 .serviceAll {
@@ -388,7 +397,7 @@ p {
 }
 
 .service h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     position: relative;
     margin-top: 20px;
@@ -398,11 +407,11 @@ p {
 }
 
 .service p {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .service h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -432,7 +441,7 @@ p {
     flex: 0 0 auto; 
     width: 300px; 
     height: auto;
-    background-color: #0f0f0f;
+    background-color: #fff7f7;
     padding: 4%;
     border-radius: 8px;
     transition: .6s;
@@ -458,7 +467,7 @@ p {
     left: -200px;
     width: 120%;
     transform: rotate(50deg);
-    background-color: #fff;
+    background-color: #c1c1c1;
     height: 18px;
     filter: blur(30px);
     opacity: 0.5;
@@ -489,7 +498,7 @@ p {
     align-items: stretch;
     gap: 60px;
     padding: 0px 0;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 80px 0;
 }
 
@@ -531,19 +540,20 @@ p {
     left: 60px; 
     display: flex;
     gap: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .g1-box {
     width: 270px;
     height: 204px;
     z-index: 2;
-    background-color: #1B1B1B;
+    background-color: #fff7f7;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 25px;
+    border: 1px solid #ffe2e2;
 }
 
 .g1-box:nth-child(1){
@@ -555,7 +565,7 @@ p {
 }
 
 .g1-box a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .g1-box p {
@@ -567,7 +577,7 @@ p {
     justify-content: space-between;
     align-items: stretch;
     gap: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 80px 0;
 }
 
@@ -643,7 +653,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#151515;
+    background-color:#ffffff;
     padding: 80px 0;
 }
 .testimonial{
@@ -672,7 +682,7 @@ p {
     padding: 0 100px;
     font-size: 14px;
     font-weight: 700;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .slide details {
     display: flex;
@@ -683,13 +693,13 @@ p {
 .details .name{
     font-size: 14px;
     font-weight: 600;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .updates {
     text-align: center;
     padding: 80px 0;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -698,9 +708,9 @@ p {
 .updates-box {
     display: flex;
     justify-content: space-around;
-    border: 1px solid #1b1b1b;
+    border: 1px solid #ffe2e2;
     border-radius: 24px;
-    background-color: #1b1b1b;
+    background-color: #fff7f7;
     overflow: hidden;
     transition: opacity 0.3s linear, transform 0.3s linear;
 }
@@ -725,7 +735,7 @@ p {
     border-radius: 12px;
 }
 .updates-texts {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .updates-texts .date {
@@ -747,13 +757,13 @@ p {
 .bookcalltext {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .logo-circle-p {
     width: 80px;
     height: 60px;
     border-radius: 50%;
-    background-color: #4F46E5;
+    background-color: #006da6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -782,29 +792,29 @@ p {
     padding: 10px 40px;
     border: none;
     font-size: 17px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 7px;
     font-weight: 700;
-    background: #4F46E5;
-    box-shadow: 0 0 25px #4F46E5;
+    background: #006da6;
+    box-shadow: 0 0 10px #006da6;
     transition: box-shadow 0.5s;
     cursor: pointer;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .shadow__btn a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .shadow__btn:hover {
-    box-shadow: 0 0 5px #4F46E5,
-                0 0 25px #4F46E5,
-                0 0 50px #4F46E5,
-                0 0 100px #4F46E5;
+    box-shadow: 0 0 1px #006da6,
+                0 0 5px #006da6,
+                0 0 10px #006da6,
+                0 0 20px #006da6;
 }
 .footer {
     padding: 80px 0;
-    background: #151515;
-    color: #fff;
+    background: #ffffff;
+    color: #000000;
     font-size: 16px;
     line-height: 20px;
 }
@@ -824,7 +834,7 @@ p {
 }
 
 .col a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .col h3 {
     margin-top: 10px;
@@ -868,11 +878,11 @@ form input {
     margin-bottom: 10px;
 }
 .button-36 {
-    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    background-color: #006da6;
     border-radius: 10px;
     border-style: none;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
     flex-shrink: 0;
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
@@ -889,13 +899,13 @@ form input {
     width: 100%;
 }
 .button-36:hover {
-    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    box-shadow: #006da6 0 1px 30px;
     transition-duration: .2s;
 }
 
 .bookcallbutton {
     font-size: 17px;
-    color: #fff;
+    color: #000000;
     border-radius: 7px;
     font-weight: 700;
     box-shadow: 0 0 25px #4F46E5;
@@ -916,7 +926,7 @@ form input {
     }
 
     .bookcallbutton a{
-        color: white;
+        color: rgb(255, 255, 255);
     }
 
 #animation-d, #animation-u, #animation-r, #animation-l, #pop-up {
@@ -1163,10 +1173,11 @@ form input {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
     .cards {
         flex-wrap: nowrap; 
         display: flex;
+        flex-direction: column;
     }
     .updates-box{
         display: flex;
@@ -1217,10 +1228,15 @@ form input {
     #counter h1{
         font-size: 1.5em;
     }
+
 }
 
 
-
+@media(min-width: 480px){
+    .mainMenu li a img{
+        display: none;
+    }
+}
 
 
 

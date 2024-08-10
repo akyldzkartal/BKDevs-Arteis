@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #151515;
+    background-color: #ffffff;
     color: #fff;
     max-width: 1170px; 
     margin: 0 auto; 
@@ -52,6 +52,7 @@ body {
     align-items: center;
     padding-top: 80px;
     gap: 80px;
+    color: black;
 }
 
 .features-header h1{
@@ -98,6 +99,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    color: #000000;
 }
 
 .stats{
@@ -204,7 +206,7 @@ body {
 }
 
 .card1 {
-    background-color: #1B1B1B;
+    background-color: #fff7f7;
     border-radius: 10px;
     padding: 20px;
     width: 100%; /* Kartın genişliğini tamamen dolduracak şekilde ayarlandı */
@@ -212,7 +214,7 @@ body {
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    border: 1px solid #282828;
+    border: 1px solid #ffe2e2;
     margin-bottom: 30px; /* Kartlar arası boşluk ekleniyor */
 }
 
@@ -235,11 +237,12 @@ body {
 .card1-title {
     font-size: 22px;
     margin: 0 0 10px;
+    color: black;
 }
 
 .card1 p {
     font-size: 16px;
-    color: #bbb;
+    color: #000000;
     margin: 0 0 20px;
 }
 

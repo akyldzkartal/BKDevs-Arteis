@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 60px 0;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 64px;
     width: 100%;
 }
@@ -38,6 +38,7 @@ body {
     flex-flow: column;
     gap: 50px;
     padding: 60px 0;
+    color: #000000;
 }
 
 .about-us-hero-texts {
@@ -62,6 +63,7 @@ body {
     display: flex;
     gap: 100px;
     padding: 80px 0;
+    color: #000000;
 }
 
 .statistics-img{
@@ -121,6 +123,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 80px 0;
+    color: #000000;
 }
 
 .join-us-img{
@@ -178,8 +181,8 @@ body {
     color: #fff;
     border-radius: 7px;
     font-weight: 700;
-    background: #4F46E5;
-    box-shadow: 0 0 10px #4F46E5;
+    background: #006da6;
+    box-shadow: 0 0 10px #006da6;
     transition: box-shadow 0.5s;
     cursor: pointer;
     transition: opacity 0.2s linear, transform 0.2s linear;
@@ -190,10 +193,10 @@ body {
     color: white;
 }
 .join-us-texts button:hover{
-    box-shadow: 0 0 5px #4F46E5,
-    0 0 25px #4F46E5,
-    0 0 50px #4F46E5,
-    0 0 100px #4F46E5;
+    box-shadow: 0 0 1px #006da6,
+                0 0 5px #006da6,
+                0 0 10px #006da6,
+                0 0 20px #006da6;
 }
 
 .about-us-info{
@@ -204,6 +207,7 @@ body {
     text-align: center;
     gap: 30px;
     padding: 80px 0;
+    color: #000000;
 }
 
 .about-info-img{
@@ -291,6 +295,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 80px 0;
+    color: #000000;
 }
 
 
