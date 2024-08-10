@@ -289,15 +289,6 @@ body {
     flex-direction: column;
 }
 
-.our-team{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 80px 0;
-    color: #000000;
-}
-
 
 @media (max-width: 768px) {
     .container {
@@ -369,8 +360,7 @@ body {
         margin-bottom: 20px;
     }
 
-    .about-us-info,
-    .our-team {
+    .about-us-info{
         gap: 40px;
         padding: 40px 0;
     }
