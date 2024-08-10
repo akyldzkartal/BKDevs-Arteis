@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 60px 0;
-    color: rgb(0, 0, 0);
+    color: #2e2828d1;
     font-size: 64px;
     width: 100%;
 }
@@ -50,12 +50,14 @@ body {
     width: 100%;
     font-size: 36px;
     transition: opacity 0.2s linear, transform 0.2s linear;
+    color: #2e2828d1;
 }
 
 .about-us-hero-texts p {
     font-size: 18px;
     margin: 0;
     transition: opacity 0.3s linear, transform 0.3s linear;
+    color: #939393;
 }
 
 
@@ -90,6 +92,7 @@ body {
 .statistics-texts p{
     font-size: 18px;
     transition: opacity 0.3s linear, transform 0.3s linear;
+    color: #939393   ;
 }
 
 .stats{
@@ -97,21 +100,24 @@ body {
     gap: 20px;
     justify-content: space-between;
     transition: opacity 0.45s linear, transform 0.45s linear;
+    color:   #2e2828d1;
 }
 
 .statistics-texts h2{
     font-size: 36px;
+    color:   #2e2828d1;
 }
 
 .stat .stats-number{
     font-size: 36px;
     font-weight: bold;
+    color:   #2e2828d1;
 }
 
 .stats-types{
     font-size: 16px;
     margin-top: 5px;
-    color: #939393;
+    color:   #2e2828d1;
 }
 
 .join-us-infos{
@@ -150,13 +156,14 @@ body {
 
 .join-us-texts h2{
     font-size: 36px;
+    color: #2e2828d1;
 }
 
 .logo-circle-small {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #1B1B1B;
+    background-color: #2e2828d1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,12 +240,14 @@ body {
 
 .block-header{
     font-size: 36px;
+    color: #2e2828d1;
 }
 
 .block-p{
     font-size: 18px;
     line-height: 28.8px;
     transition: opacity 0.1s linear, transform 0.3s linear;
+    color: #939393;
 }
 
 .team-photos-container{

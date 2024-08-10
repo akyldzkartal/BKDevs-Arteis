@@ -161,7 +161,7 @@ figure:nth-child(3) {
     
   }
   nav .mainMenu li a:hover {
-    background: #4F46E5;
+    background: #006da6;
     border-radius: 8px;
     color: white;
   }
@@ -281,6 +281,7 @@ figure:nth-child(3) {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #2e2828d1;
 }
 
 .hero-image{
@@ -319,6 +320,7 @@ figure:nth-child(3) {
 .hero-services-box h2{
     margin-top: 10px;
     margin-bottom: 5px;
+    color: #2e2828d1;
 }
 
 .hero-services-box p {
@@ -353,12 +355,12 @@ figure:nth-child(3) {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #2e2828d1;
     padding:  60px 0;
 }
 
 .part {
-   
+    color: #2e2828d1;
     flex: 1;
     text-align: center;
     padding: 20px 10px;
@@ -392,12 +394,16 @@ p {
     align-items: center;
 }
 
+.services-p{
+    color: rebeccapurple;
+}
+
 .services-header{
     font-size: 36px;
 }
 
 .service h3 {
-    color: rgb(0, 0, 0);
+    color: #939393;
     font-size: 18px;
     position: relative;
     margin-top: 20px;
@@ -411,7 +417,7 @@ p {
 }
 
 .service h2 {
-    color: rgb(0, 0, 0);
+    color: #2e2828d1;
     text-align: center;
 }
 
@@ -484,6 +490,7 @@ p {
 .card p {
    text-align: center;
     margin: 12px 0px;
+    color: #939393;
 }
 
 .card:hover {
@@ -518,13 +525,14 @@ p {
 
 .features-texts-box h2 {
     font-size: 36px;
-   
+   color: #2e2828d1;
 }
 .features-texts-box p {
     font-size: 18px;
     margin-top: 20px;
     line-height: 28.8px;
     transition: opacity 0.5s ease, transform 0.5s ease;
+    color: #939393;
 }
 
 .features-texts-box {
@@ -564,8 +572,12 @@ p {
     transition: opacity 0.75s ease, transform 0.75s ease;
 }
 
+.g1-box h3{
+    color: #2e2828d1;
+}
+
 .g1-box a {
-    color: rgb(0, 0, 0);
+    color: #2e2828d1;
 }
 
 .g1-box p {
@@ -620,6 +632,7 @@ p {
 }
 .features-text h1{
     font-size: 28px;
+    color: #2e2828d1;
 }
 .features-text p{
     font-size: 20px;
@@ -639,7 +652,7 @@ p {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background-color: #1B1B1B;
+    background-color: #2e2828d1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -679,6 +692,7 @@ p {
 
 .updates-header{
     font-size: 36px;
+    color: #2e2828d1;
 }
 .updates-image {
     width: 345px;
@@ -687,7 +701,7 @@ p {
     border-radius: 12px;
 }
 .updates-texts {
-    color: rgb(0, 0, 0);
+    color: #727070;
 }
 
 .updates-texts .date {
@@ -732,6 +746,7 @@ p {
 .text-content h1 {
     margin-bottom: 20px;
     font-size: 30px;
+    color: #2e2828d1;
 }
 
 .text-content p {
@@ -739,6 +754,7 @@ p {
     font-size: 18px;
     width: 80%;
     line-height: 28.8px;
+    color: #939393;
 }
 .shadow__btn {
     padding: 10px 40px;
@@ -786,16 +802,18 @@ p {
 }
 
 .col a {
-    color: rgb(0, 0, 0);
+    color: #939393;
 }
 .col h3 {
     margin-top: 10px;
     position: relative;
     font-size: 30px;
     margin-bottom: 10px;
+    color: #2e2828d1;
 }
 .col p {
     margin-top: 20px;
+    color: #939393;
 
 }
 
