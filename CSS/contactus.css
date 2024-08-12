@@ -82,14 +82,13 @@ body {
 .address:nth-child(2){
     transition: opacity 0.4s linear, transform 0.4s linear;
 }
-
-.contactform {
+ .about {
     flex: 1 1 35%;
-    padding: 20px;
     border-radius: 10px;
     height: auto;
     transition: opacity 0.2s linear, transform 0.2s linear;
-}
+} 
+
 
 .contactform h1 {
     margin-bottom: 10px;
