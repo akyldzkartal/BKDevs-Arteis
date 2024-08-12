@@ -1,0 +1,148 @@
+.socialcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1170px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #006da6;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+h1 {
+    color: #006da6;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.cta {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.learn-more {
+    background-color: #006da6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.learn-more:hover {
+    background-color: #003d7a;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a i {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.image-section img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.learn-more-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.learn-more {
+    background-color: #006da6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: #003d7a;
+}
+
+@media (max-width: 768px) {
+    .socialcontainer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .text-section {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .learn-more-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a i {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .image-section img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .socialcontainer {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .learn-more {
+        padding: 8px 16px;
+    }
+
+    .image-section img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
