@@ -3,7 +3,7 @@ $(document).ready(function() {
         'tr': {
             '1': 'Anasayfa',
             '2': 'Hizmetler',
-            '3': 'Uzmanlıklar',
+            '3': 'Sosyal',
             '4': 'Hakkımızda',
             '5': 'İletişime Geç',
             '6': 'Arteis ile Güçlü ve Parlak Bir Gelecek İnşa Edin',
@@ -168,7 +168,7 @@ $(document).ready(function() {
         'en': {
             '1': 'Home',
             '2': 'Services',
-            '3': 'Expertises',
+            '3': 'Social',
             '4': 'About Us',
             '5': 'Contact Us',
             '6': 'Empower Your Retail Future with Arteis',
