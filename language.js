@@ -54,7 +54,7 @@ $(document).ready(function() {
             '50':'Sayfalar',
             '51':'Anasayfa',
             '52':'Hakkımızda',
-            '53':'Uzmanlıklar',
+            '53':'sosyal',
             '54':'İletişim',
             '55':'Hizmetler',
             '56':'Süreç Ve Uygulama Danışmanlığı',
@@ -71,7 +71,7 @@ $(document).ready(function() {
            
                 '100': 'Anasayfa',
                 '101': 'Hizmetler',
-                '102': 'Uzmanlıklar',
+                '102': 'sosyal',
                 '103': 'Hakkımızda',
                 '104': 'İletişime Geç',
                 '106': 'Lojistik Ve Finansal Uygulamalar',
@@ -99,7 +99,7 @@ $(document).ready(function() {
                 '128': 'Sayfalar',
                 '129': 'Anasayfa',
                 '130': 'Hakkımızda',
-                '131': 'Uzmanlıklar',
+                '131': 'sosyal',
                 '132': 'İletişim',
                 '133': 'Hizmetler',
                 '134': 'Süreç Ve Uygulama Danışmanlığı',
@@ -155,9 +155,17 @@ $(document).ready(function() {
             '502':'İşletmenizin verimliliğini ve etkinliğini artırmak için özelleştirilmiş yazılım süreçleri ve uygulamaları sunuyoruz.',
 
 
-        
-             
 
+            //social
+            '601':'Sosyal',
+            '602':'Yaratıcı ve Yenilikçi Çözümler',
+            '603':'İşletmenizi bir adım öne taşıyan sosyal projelerimizi burada keşfedin. Dijital dünyada iz bırakmak için geliştirdiğimiz yenilikçi çözümlerle tanışın',
+            '604':'Arteis ile Başarınızı Yakalayın: SAP Uzmanlarınız Sizi Bekliyor!',
+            '605':'Arteis ile perakende geleceğinizi güçlendirin: SAP perakende ürünleri konusunda uzman ekibimizle büyümeyi ve yeniliği artırın. Uzman ekibimizle sorunsuz bir şekilde entegre edin, optimize edin ve başarılı olun.',
+            '606':'Bugün Arteis avantajını deneyimleyin',
+            '607':'Daha Fazla'
+            
+              
 
 
 
@@ -312,6 +320,17 @@ $(document).ready(function() {
 
 
 
+            //sosyal
+
+            '601':'Social',
+            '602':'Creative and Innovative Solutions',
+            '603':'Discover our social projects that take your business one step ahead. Get to know the innovative solutions we’ve developed to make a mark in the digital world.',
+            '604':'Unlock Retail Success with Arteis: Your SAP Experts Await!',
+            '605':'Empower your retail future with Arteis: SAP retail products specialists driving growth and innovation. Seamlessly integrate, optimise, and excel with our expert team.',
+            '606':'Experience the Arteis advantage today',
+            '607':'Learn More',
+
+              
 
 
 

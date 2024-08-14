@@ -215,7 +215,7 @@ figure:nth-child(3) {
     cursor: pointer;
     border-radius: 12px;
     border: none;
-    background-color: #2e2828d1;
+    background-color: #006da6;
     color: rgb(255, 255, 255);
   }
 
@@ -1213,3 +1213,7 @@ form input {
 
 
 
+.instaCard:nth-child(1),
+.instaCard:nth-child(2){
+    transition: opacity 0.35s linear, transform 0.35s linear;
+}
