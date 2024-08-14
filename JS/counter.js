@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }, step);
     }
-    counter("count1", 0, 100, 3000); // İkinci parametre olan "duration" değerini artırarak daha yavaş saymasını sağlayabilirsiniz
-    counter("count2", 0, 120, 3000); // İkinci parametre olan "duration" değerini artırarak daha yavaş saymasını sağlayabilirsiniz
-    counter("count3", 0, 15, 3000); // İkinci parametre olan "duration" değerini artırarak daha yavaş saymasını sağlayabilirsiniz
-    counter("count4", 0, 20, 3000); // İkinci parametre olan "duration" değerini artırarak daha yavaş saymasını sağlayabilirsiniz
+    counter("count1", 0, 100, 3000); 
+    counter("count2", 0, 120, 3000);
+    counter("count3", 0, 15, 3000); 
+    counter("count4", 0, 20, 3000); 
 });

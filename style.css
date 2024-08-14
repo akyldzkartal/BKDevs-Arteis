@@ -1187,8 +1187,6 @@ form input {
         width: 100%;
     }
 }
-
-
 @media (max-width: 480px) {
     .inner-updates-box{
         width: 100%;
@@ -1200,19 +1198,11 @@ form input {
     }
 
 }
-
-
 @media(min-width: 480px){
     .mainMenu li a img{
         display: none;
     }
 }
-
-
-
-
-
-
 .instaCard:nth-child(1),
 .instaCard:nth-child(2){
     transition: opacity 0.35s linear, transform 0.35s linear;

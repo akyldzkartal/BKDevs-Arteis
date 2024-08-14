@@ -28,6 +28,7 @@
       </figure>
         </div>
     <div class="container">
+       
         <div class="bottom-right">
             <button id="btn-tr">Türkçe</button>
             <button id="btn-en">English</button>
@@ -41,7 +42,7 @@
                 <li><a href=""><img src="assets/arteis.png" alt=""></a></li>
                 <li><a href="index.html" key="1">Anasayfa</a></li>
                 <li><a href="mainservis.html" key="2">Hizmetler</a></li>
-                <li><a href="#uzmanlıklar" key="3">Uzmanlıklar</a></li>
+                <li><a href="social.html" key="3">Sosyal</a></li>
                 <li><a href="about.html" key="4">Hakkımızda</a></li>
                <a href="contactus.html"> <button class="headerbutton" role="button" key="5">İletişime Geç</button></a>
                 <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: rgb(0, 0, 0);"></i></div>
@@ -54,7 +55,6 @@
                 </span>
             </ul>
         </nav>
-
 
 
     <div class="contactussh1" id="pop-up">
@@ -77,18 +77,22 @@
             </div>
         </div>
 
-        <form action="https://api.web3forms.com/submit" method="POST" class="about">
-        <div class="contactform" id="animation-l">
+        <form class="about" action="https://api.web3forms.com/submit" method="POST">
+
             <input type="hidden" name="access_key" value="aed4a57c-0ab3-4e4f-b16d-9c42c69d20df">
-            <h1 key="204">Bize Ulaşmak İçin Formu Kullanın</h1>
-            <p key="205">Formu doldurun, ekibimiz en geç 24 saat içinde size geri dönecektir.</p>
-            <input type="name" placeholder="İsim" class="contactformtext">
-            <input type="email" placeholder="E-Posta" class="contactformtext">
-            <input type="tel" placeholder="Telefon Numarası" class="contactformtext">
-            <textarea placeholder="Mesajınız" class="contactformtextarea" style="resize: none;" name="message"></textarea>
-            <button class="button-36" role="button" key="206">Gönder</button>
-        </div>
-    </form>
+            <div class="contactform">
+                <h1 key="204">Bize Ulaşmak İçin Formu Kullanın</h1>
+                    <p key="205">Formu doldurun, ekibimiz en geç 24 saat içinde size geri dönecektir.</p>
+              
+                <input id="name" name="name" class="contactformtext" placeholder="name" type="text" />
+                <input id="email" name="email" class="contactformtext" placeholder="email" type="email" />
+                <input id="phone" name="phone" class="contactformtext" placeholder="Phone" type="text" />
+                <textarea class="form-textarea" id="message" name="message"  class="contactformtextarea"></textarea>
+              
+        
+            </div>
+            <button class="button-36" type="submit">Send Message</button>
+          </form>
     </div>
 
     <section class="faq-section">
@@ -158,7 +162,7 @@
                 <h3 key="50">Sayfalar</h3>
                 <a href="index.html"> <p key="51">Anasayfa</p></a>
                 <a href="about.html"> <p key="52">Hakkımızda</p></a>
-               <a href="mainservis.html">  <p key="53">Uzmanlıklar</p></a>
+               <a href="social.html">  <p key="53">Sosyal</p></a>
                <a href="contactus.html">  <p key="54">İletişim</p></a>
               </div>
               <div class="col">
@@ -175,8 +179,8 @@
                 <h3 key="60">Haber Bülteni</h3>
                 <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
                 <form>
-                  <input type="email" name="" id="" placeholder="E-Mail adresinizi girin" class="form-input">
-                  <button class="button-36" role="button">Abone Ol</button>
+                  <input type="email" name="" id="" placeholder="Your E-mail Address" class="form-input">
+                  <button class="button-36" role="button" key="62">Abone Ol</button>
                 </form>
               </div>
             </div>
