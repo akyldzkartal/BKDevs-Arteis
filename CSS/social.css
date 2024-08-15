@@ -162,7 +162,7 @@ p {
 
 .instaCard{
     position: relative;
-    width: 360px;
+    width: 400px;
     min-height: 400px;
     background: #fff;
     box-shadow: 15px 15px 60px rgb(122, 118, 118);
@@ -221,13 +221,17 @@ p {
 .imgBx{
     position: relative;
     width: 100%;
-    height: 320px;
+    height: clamp(300px 320px 330px);
     margin: 10px 0 15px;
 }
 
 .imgBx .cover{
     width: 260px;
     height: 300px;
+}
+.imgBxp {
+    font-size: 12px;
+   
 }
 
 .actionBtns{

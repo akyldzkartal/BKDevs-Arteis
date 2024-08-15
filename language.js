@@ -227,7 +227,7 @@ $(document).ready(function() {
             '50': 'Pages',
             '51': 'Home',
             '52': 'About Us',
-            '53': 'Expertise',
+            '53': 'Social',
             '54': 'Contact',
             '55': 'Services',
             '56': 'Process and Application Consulting',
