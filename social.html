@@ -319,17 +319,33 @@
             <div class="col">
               <h3 key="60">Haber Bülteni</h3>
               <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
-              <form>
+              <form onsubmit="event.preventDefault(); openPopup();">
                 <input type="email" name="" id="" placeholder="Your E-mail Address" class="form-input">
                 <button class="button-36" role="button" key="62">Abone Ol</button>
+                <div class="subPop" id="subPop">
+                  <img src="assets/checkmark.png" alt="">
+                  <h2 key="800">Teşekkürler</h2>
+                  <p key="801" >Aboneliğiniz başarıyla alındı</p>
+                  <button type="button" onclick="closePopup()" key="802" >tamam</button>
+                </div> 
               </form>
-            </div>
           </div>
         </footer>
 
 
         
-    
+        <script>
+          let popup = document.getElementById("subPop");
+      
+          function openPopup(){
+              popup.classList.add("open-popup");
+          }
+      
+          function closePopup(){
+              popup.classList.remove("open-popup");
+          }
+      
+         </script>
     
     
     

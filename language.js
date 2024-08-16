@@ -170,6 +170,7 @@ $(document).ready(function() {
 
             '800': "Teşekkürler",
             '801': "Aboneliğiniz başarıyla alındı",
+            '802': 'tamam'
 
 
 
@@ -237,7 +238,7 @@ $(document).ready(function() {
             '57': 'Project Management',
             '58': 'Support Services',
             '59': 'Arteis Solutions',
-            '60': 'Newsletter',
+            '60': 'News',
             '61': 'You can enter your email address to subscribe to our newsletter.',
             '62': 'Subscribe',
              // footer
@@ -338,6 +339,7 @@ $(document).ready(function() {
 
             '800': "Thank you",
             '801': "Your subscription was successful",
+            '802': 'Ok'
 
 
 
