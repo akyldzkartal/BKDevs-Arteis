@@ -57,6 +57,8 @@
 
 .address p{
     color: #939393;
+    text-align: center;
+
 }
 
 .address:nth-child(1){
@@ -270,3 +272,8 @@ padding: 20px;
     }
 }
 
+
+
+.turkey{
+    text-transform: none;
+}

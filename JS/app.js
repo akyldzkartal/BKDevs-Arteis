@@ -43,3 +43,5 @@ function close() {
         mainMenu.style.display = 'none';
     }, 1000); 
 }
+
+

@@ -1207,3 +1207,52 @@ form input {
 .instaCard:nth-child(2){
     transition: opacity 0.35s linear, transform 0.35s linear;
 }
+
+
+.subPop {
+    width: 400px;
+    background: #fff;
+    border-bottom: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    text-align: center;
+    position: fixed;
+    padding: 0 30px 30px;
+    color: #333;
+    opacity: 0;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.subPop img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.subPop h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.subPop button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.open-popup {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
